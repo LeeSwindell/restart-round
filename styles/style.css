@@ -2,7 +2,6 @@
   font-family: mono;
   src: url(../fonts/RobotoMono.ttf);
 }
-/* Colors: (violet #a78bfa)(white #f0f9ff) (black #1f2937) */
 
 body {
   font-family: mono;
@@ -44,8 +43,8 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  /* margin-bottom: 25px; */
   background-color: #FFF7ED;
+  border-bottom: solid 2px #38BDF8;
 }
 
 .subheader {
@@ -64,21 +63,9 @@ a:hover {
   color: #38BDF8;
 }
 
-.logo {
-  width: 10vh;
-  height: 10vh;
-  background-color: #f0f9ff;
-}
-
 .title {
   font-size: 80px;
   color: #38BDF8;
-}
-
-.shop {
-  width: 10vh;
-  height: 10vh;
-  background-color: #f0f9ff;
 }
 
 .main {
@@ -153,12 +140,4 @@ a:hover {
 .scroll-btn:hover {
   opacity: 0.7;
   color: #EF4443;
-}
-
-.scroll-btn.left {
-  margin-right: 10px; 
-}
-
-.scroll-btn.right {
-  margin-left: 10px;
 }
