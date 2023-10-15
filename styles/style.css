@@ -1,22 +1,46 @@
+/* 
+    rem references
+
+    desktop:
+    1 rem = 16px - never really used?
+    1.125 rem = 18px - paragraphs
+    1.5 rem = 24px - text blurbs
+    2 rem = 32 px - paragraph titles
+    3 rem = 48 px - big headers
+
+    mobile:
+    1 rem = 18 px
+    do math
+*/
+
 @font-face {
   font-family: mono;
   src: url(../fonts/RobotoMono.ttf);
 }
 
+/* this sets the font rem size */
+html {
+  font-size: 16px
+}
+
 body {
-  font-family: mono;
+  font-family: 'Londrina Solid', sans-serif;
   margin: 0px;
   background-color: #FFF7ED;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
 }
 
 /* * {
   cursor: url(../Mallet.svg), auto;
 } */
 
-img {
-  /* width: 40vh; */
-  min-height: 20vh;
-  max-height: 20vh;
+img, picture, video, canvas, svg {
+  display: block; 
+  max-width: 100%;
 }
 
 a {
@@ -59,8 +83,16 @@ a:hover {
   padding-right: 20px;
   /* padding-top: 10px; */
   margin-bottom: 25px;
-  font-size: 24px;
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
   color: #38BDF8;
+}
+
+.subheader > a {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .title {
@@ -86,10 +118,6 @@ a:hover {
   margin-bottom: 50px;
   overflow-x: hidden;
   overflow-y: visible;
-
-  /* border-style: inset;
-  border-radius: 4px;
-  border-color: pink; */
 }
 
 .about-us {
@@ -102,20 +130,18 @@ a:hover {
   margin-right: 10%;
   overflow-x: hidden;
   overflow-y: visible;
-
-  /* border-style: inset;
-  border-radius: 4px;
-  border-color: pink; */
 }
 
 .game-title {
-  font-size: 48px;
+  font-size: 3rem;
   color: #38BDF8;
 }
 
 .game-description {
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 1.5rem;
   color: #38BDF8;
+  color: black
 }
 
 .image-track {
@@ -134,8 +160,9 @@ a:hover {
 
 .image-track > .image {
   min-width: 200px;
-  width: 200px;
-  height: 200px;
+
+  width: 12vw;
+  height: max(calc(12vw * (1350 / 1080)), calc(200px * (1350 / 1080)));
   object-fit: cover;
   object-position: 100% center;
 }
@@ -150,7 +177,7 @@ a:hover {
   border: none;
   cursor: pointer;
   color: #38BDF8;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .scroll-btn:hover {
@@ -158,90 +185,22 @@ a:hover {
   color: #EF4443;
 }
 
-.mole {
-  font-family: 'Londrina Solid', sans-serif;
-}
-
-
 /* Animate the subheader on hover */
-.subheader a:hover {
+/* .subheader a:hover {
   color: #EF4443;
   transition: color 0.3s;
-}
+} */
 
 /* Add a hover effect for game descriptions */
-.game-description:hover {
+/* .game-description:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
-}
+} */
 
 
-.game-container img:hover {
+/* .game-container img:hover {
   transform: scale(1.05);
-}
-
-/* Apply a parallax effect to the title bar */
-.mole-title-bar {
-  background-attachment: fixed;
-  background-image: url("../imgs/mole/molepark.png");
-  background-size: cover;
-  padding: 100px 0px;
-  color: white;
-  border:#bc13fe;
-  border-width:5px;
-  border-radius:5px;
-  border-style:solid;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
-  overflow-x:visible;
-  width:90%;
-  text-align: center;
-  margin:auto;
-}
-
-.neonText {
-	animation: pulsate 1.5s infinite alternate;  
-
-	color: #fff;
-	text-shadow:
-	  0 0 7px #fff,
-	  0 0 10px #fff,
-	  0 0 21px #bc13fe,
-	  0 0 42px #bc13fe;
- }
-
- @keyframes pulsate {
-	  
-	100% {
- 
-		 text-shadow:
-		 0 0 3px #fff,
-		 0 0 7px #cec6e4,
-		 0 0 19px #bc13fe,
-		 0 0 40px #bc13fe;
-	
-	}
-	
-	0% {
- 
-	  text-shadow:
-	  0 0 2px #fff,
-	  0 0 4px #cec6e4,
-	  0 0 6px #bc13fe,
-	  0 0 10px #bc13fe,
-	  0 0 45px #bc13fe;
-
- }
-}
-
-.neonText2 {
-	color: #fff;
-	text-shadow:
-	  0 0 3px #fff,
-	  0 0 13px #13fe56,
-	  0 0 22px #13fe56;
- }
-
-
+} */
 
 footer {
   text-align: center;
@@ -249,5 +208,5 @@ footer {
 }
 
 .copyright {
-  font-size: 24px;
+  font-size: 1.5rem;
 }

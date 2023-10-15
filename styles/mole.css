@@ -1,0 +1,103 @@
+/* 
+    rem references
+
+    desktop:
+    1 rem = 16px - never really used?
+    1.125 rem = 18px - paragraphs
+    1.5 rem = 24px - text blurbs
+    2 rem = 32 px - paragraph titles
+    3 rem = 48 px - big headers
+
+    mobile:
+    1 rem = 18 px
+    do math
+*/
+
+.mole {
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+.mole-header {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2rem;
+    color: #38BDF8;
+}
+
+.mole-text {
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.col-container {
+    width: 75%;
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    overflow-y: visible;
+  }
+
+/* Parallax effect on title bar image */
+.mole-title-bar {
+    background-attachment: fixed;
+    background-image: url("../imgs/mole/molepark.png");
+    background-size: cover;
+    padding: 100px 0px;
+    color: white;
+    border:#bc13fe;
+    border-style: inset;
+    border-width:5px;
+    border-radius:5px;
+    border-style:solid;
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); */
+    overflow-x:visible;
+    width:100%;
+    text-align: center;
+    /* margin:auto; */
+}
+
+.neonText {
+    animation: pulsate 1.5s infinite alternate;  
+
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #bc13fe,
+    0 0 42px #bc13fe;
+}
+
+@keyframes pulsate {
+    
+    100% {
+
+        text-shadow:
+        0 0 3px #fff,
+        0 0 7px #cec6e4,
+        0 0 19px #bc13fe,
+        0 0 40px #bc13fe;
+    
+    }
+    
+    0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #cec6e4,
+    0 0 6px #bc13fe,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe;
+
+}
+}
+
+.neonText2 {
+    color: #fff;
+    text-shadow:
+    0 0 3px #fff,
+    0 0 13px #13fe56,
+    0 0 22px #13fe56;
+}
