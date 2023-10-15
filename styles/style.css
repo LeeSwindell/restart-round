@@ -40,6 +40,16 @@ html {
     height: 5vh !important;
     max-height: 5vh !important;
   }
+  .subheader > a {
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+  }
+  .scroll-btn {
+    max-width: 0;
+    max-height: 0;
+    opacity: 0;
+  }
+
 }
 
 body {
