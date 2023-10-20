@@ -26,7 +26,7 @@ html {
 /* for mobile devices increase font a bit */
 @media only screen and (max-width:800px) {
   html {
-    font-size: 18px;
+    font-size: 14px;
   }
   .title-logo {
     min-height: 12vh !important;
@@ -49,6 +49,12 @@ html {
     max-height: 0;
     opacity: 0;
   }
+  .game-title {
+    font-size: 2.4rem !important;
+  }
+  .game-description {
+    font-size: 1.25rem !important;
+  }
 
 }
 
@@ -70,10 +76,12 @@ body {
 img, picture, video, canvas, svg {
   display: block; 
   max-width: 100%;
+  /* border: 2px inset red; */
 }
 
 .title-logo {
   min-height: 15vh;
+  max-height: 20vh;
 }
 
 
@@ -90,8 +98,8 @@ a:hover {
 }
 
 .header {
-  min-height: 25vh;
-  height: 25vh;
+  /* min-height: 25vh; */
+  max-height: 25vh;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -101,7 +109,8 @@ a:hover {
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #FFF7ED;
   border-bottom: solid 2px #38BDF8;
 }
@@ -118,7 +127,7 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
   /* padding-top: 10px; */
-  margin-bottom: 25px;
+  margin-bottom: 0vh;
   font-family: 'Londrina Solid', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
