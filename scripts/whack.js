@@ -41,3 +41,34 @@ document.addEventListener("click", function(event) {
 function RemoveElement(ele) {
   ele.remove();
 }
+
+
+//
+// alternative to using anime js potentially
+//
+
+// const ele = document.getElementById('element');
+
+// let startTime = Date.now();
+// let duration = 8000;
+
+// function animate() {
+
+//   let elapsed = Date.now() - startTime;
+
+//   if (elapsed > duration) {
+//     return; 
+//   }
+
+//   let progress = elapsed / duration;
+
+//   let randomX = (Math.random() - 0.5) * 2;
+//   let randomY = (Math.random() - 0.5) * 2;
+
+//   ele.style.transform = `translate(${randomX * 100}px, ${randomY * 100}px) rotate(${progress * 1200}deg)`;
+
+//   requestAnimationFrame(animate);
+
+// }
+
+// animate();
