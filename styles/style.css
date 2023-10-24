@@ -145,6 +145,8 @@ a:hover {
 .game-title {
   font-size: 3rem;
   color: #38BDF8;
+  text-align: center;
+  margin: auto;
 }
 
 .game-description {
@@ -220,13 +222,7 @@ footer {
   font-size: 1.5rem;
 }
 
-/* @media (color) {
-  html {
-    font-size: 30px;
-  }
-} */
-
-/* for mobile devices increase font a bit */
+/* for mobile devices resize fonts */
 @media ( max-width: 400px ) {
   html {
     font-size: 14px;
@@ -248,48 +244,12 @@ footer {
     font-weight: 300;
   }
   .scroll-btn {
-    max-width: 0;
-    max-height: 0;
-    opacity: 0;
+    display: none;
   }
   .game-title {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
   .game-description {
     font-size: 1rem !important;
   }
 }
-
-/* for mobile devices */
-/* @media only screen and (max-width:600px) and () {
-  html {
-    font-size: 14px;
-  }
-  .title-logo {
-    min-height: 12vh;
-    height: 12vh;
-  }
-  .header {
-    min-height: 20vh;
-    height: 20vh;
-  }
-  .subheader {
-    height: 5vh;
-    max-height: 5vh;
-  }
-  .subheader > a {
-    font-size: 1rem;
-    font-weight: 300;
-  }
-  .scroll-btn {
-    max-width: 0;
-    max-height: 0;
-    opacity: 0;
-  }
-  .game-title {
-    font-size: 2.4rem;
-  }
-  .game-description {
-    font-size: 1.25rem;
-  }
-} */
