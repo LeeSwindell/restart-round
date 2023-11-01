@@ -59,6 +59,12 @@ a:hover {
   cursor:pointer;  
 }
 
+.blue-line {
+  width: 80%;
+  border:solid 1px #38BDF8;
+  /* color: #38BDF8; */
+}
+
 .header {
   /* min-height: 25vh; */
   max-height: 25vh;
@@ -162,6 +168,7 @@ a:hover {
   flex-shrink: 0;
   user-select: none; /* -- Prevent image highlighting -- */
   cursor: pointer;
+  height: 200px;
 
   /* border-style: inset;
   border-radius: 4px;
@@ -174,9 +181,8 @@ a:hover {
 }
 
 .image-track > .image {
-  min-width: 200px;
-  width: 12vw;
-  height: max(calc(12vw * (1350 / 1080)), calc(200px * (1350 / 1080)));
+  width: auto;
+  height: 100%;
   object-fit: cover;
   object-position: 100% center;
 }
