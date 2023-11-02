@@ -231,8 +231,31 @@ footer {
   font-size: 1.5rem;
 }
 
+.header-alignment {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.header-left > a {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.header-right {
+  width: 100px;
+}
+
 /* for mobile devices resize fonts */
-@media ( max-width: 400px ) {
+@media ( max-width: 450px ) {
   html {
     font-size: 14px;
   }
@@ -264,5 +287,14 @@ footer {
   .game-container {
     margin-bottom: 25px;
     width: 90%;
+  }
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+  .header-alignment {
+    justify-content: center;
   }
 }
