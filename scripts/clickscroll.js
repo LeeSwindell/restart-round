@@ -1,20 +1,20 @@
-const tracks = document.querySelectorAll(".image-track");
+const sliders = document.querySelectorAll(".image-track");
 
-tracks.forEach((track) => {
-  const btnLeft = track.parentNode.querySelector('.left');
-  const btnRight = track.parentNode.querySelector('.right');
+sliders.forEach((slider) => {
+  const btnLeft = slider.parentNode.querySelector('.left');
+  const btnRight = slider.parentNode.querySelector('.right');
   
   btnLeft.addEventListener('click', () => {
-    let left = track.scrollLeft;
-    track.scroll({
+    let left = slider.scrollLeft;
+    slider.scroll({
       top: 0,
       left: left-300,
       behavior: "smooth",
     });
   })
   btnRight.addEventListener('click', () => {
-    let left = track.scrollLeft;
-    track.scroll({
+    let left = slider.scrollLeft;
+    slider.scroll({
       top: 0,
       left: left+300,
       behavior: "smooth",
