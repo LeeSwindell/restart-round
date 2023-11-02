@@ -1,4 +1,4 @@
-const sliders = document.querySelectorAll('.image-track');
+var sliders = document.querySelectorAll('.image-track');
 let isDown = false;
 let startX;
 let scrollLeft;
