@@ -254,6 +254,12 @@ footer {
   width: 100px;
 }
 
+@media ( min-width: 451px ) {
+  .mobile {
+    display: none;
+  }
+}
+
 /* for mobile devices resize fonts */
 @media ( max-width: 450px ) {
   html {
@@ -296,5 +302,8 @@ footer {
   }
   .header-alignment {
     justify-content: center;
+  }
+  .desktop {
+    display: none;
   }
 }
