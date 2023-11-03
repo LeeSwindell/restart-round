@@ -5,3 +5,13 @@ body {
 .para-text {
     font-size: 1.125rem;
 }
+
+.about-img-container {
+    width: 30%;
+}
+
+.about-img-container img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+}
