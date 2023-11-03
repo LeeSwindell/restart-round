@@ -7,11 +7,28 @@ body {
 }
 
 .about-img-container {
-    width: 30%;
+    width: 100%
 }
 
 .about-img-container img {
     width: 100%;
     height: auto;
     /* object-fit: cover; */
+}
+
+.about-us {
+    align-items: center;
+    /* justify-content: center; */
+}
+
+@media screen and (min-width: 450px) {
+    .about-img-container {
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us {
+        align-items: start;
+        /* justify-content: center; */
+    }
 }

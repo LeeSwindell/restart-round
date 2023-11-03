@@ -86,7 +86,7 @@ a:hover {
 .subheader {
   min-height:5vh;
   height: 5vh;
-  position: sticky;
+  /* position: sticky; */
   top: 20vh;
   z-index: 1;
   display: flex;
