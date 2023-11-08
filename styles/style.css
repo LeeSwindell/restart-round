@@ -65,6 +65,12 @@ a:hover {
   /* color: #38BDF8; */
 }
 
+.red-line {
+  width: 80%;
+  border:solid 1px #EF4443;
+  /* color: #38BDF8; */
+}
+
 .header {
   /* min-height: 25vh; */
   max-height: 25vh;
@@ -157,6 +163,19 @@ a:hover {
   font-size: 1.5rem;
   color: #38BDF8;
   color: black
+}
+
+.game-title-red {
+  font-size: 3rem;
+  color: #EF4443;
+  text-align: center;
+  margin: auto;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  text-align: left;
+  margin: auto;
 }
 
 .image-track {
