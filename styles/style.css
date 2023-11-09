@@ -350,10 +350,11 @@ footer {
     width: 90%;
   }
   .header-left {
-    display: none;
+    /* display: none; */
+    /* justify-content: space-between; */
   }
   .header-right {
-    display: none;
+    /* display: none; */
   }
   .header-alignment {
     justify-content: center;
@@ -362,6 +363,15 @@ footer {
     display: none;
   }
   .main {
-    width: 95%
+    width: 95%;
+    margin-top: 10px;
+  }
+  .cool-text {
+    font-size: 7vw;
+  }
+  .follow-us {
+    flex-direction: column;
+    /* width: 80%;
+    height: 80%; */
   }
 }
