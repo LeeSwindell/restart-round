@@ -187,7 +187,7 @@ a:hover {
 
 .grow-text {
   font-family:'Courier New';
-  font-size: 2rem;
+  font-size: 4vw;
   font-style: bold;
   display: inline-block;
 }
@@ -199,7 +199,7 @@ a:hover {
 .cool-text {
   padding: 10px;
   font-family:'Londrina Solid';
-  font-size: 5rem;
+  font-size: 8vw;
   background: linear-gradient(45deg, #ff0000, #ffcc00, #33cc33, #3366ff); /* 4-color bright gradient */
   -webkit-background-clip: text;
   color: transparent;
