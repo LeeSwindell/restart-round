@@ -139,6 +139,14 @@ a:hover {
   overflow-y: visible;
 }
 
+.follow-us {
+  position:absolute;
+  right:0;
+  padding-bottom:10px;
+  padding-right:15px;
+  bottom:0;
+}
+
 .about-us {
   text-align: left;
   display: flex; 
@@ -172,10 +180,34 @@ a:hover {
   margin: auto;
 }
 
-.welcome-text {
+.grow-text span {
+  display: inline-block;
+  transition: font-colro 0.1s ease; /* Add smooth transition for the font size change */
+}
+
+.grow-text {
+  font-family:'Courier New';
   font-size: 2rem;
-  text-align: left;
-  margin: auto;
+  font-style: bold;
+  display: inline-block;
+}
+
+.grow-text span:hover {
+  text-transform: uppercase;
+}
+
+.cool-text {
+  padding: 10px;
+  font-family:'Londrina Solid';
+  font-size: 5rem;
+  background: linear-gradient(45deg, #ff0000, #ffcc00, #33cc33, #3366ff); /* 4-color bright gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  position: relative;
+  z-index: 1; /* Ensure the text is above the shadow */
+  letter-spacing: 2px; /* Adjust letter spacing for a stylish look */
+  padding-bottom:0;
 }
 
 .image-track {
