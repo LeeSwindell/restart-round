@@ -88,7 +88,9 @@
 	</div>
 	<div class="person-info">
 		<h2>Brendon Jackson</h2>
-		<p>"Monopoly - I hate monopoly! it has been my life's ambition to complete rid the world of this vial game. Snowboarding - great! Coding - fun! Clank! - an amazing game! Soulsbourne - fun! Monopoly - get that S**T out of my face ..."</p>
+		<p>"Monopoly - I hate monopoly! it has been my life's ambition to complete rid the world of this vile game.
+			 Snowboarding - great! Coding - fun! Clank! - an amazing game! Soulsbourne - fun! Monopoly - get that
+			 S**T out of my face ..."</p>
 	</div>
 </div>
 
