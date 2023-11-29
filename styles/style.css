@@ -21,9 +21,9 @@ html {
 }
 
 body {
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: "Londrina Solid", sans-serif;
   margin: 0px;
-  background-color: #FFF7ED;
+  background-color: #fff7ed;
   line-height: 1.5;
 }
 
@@ -35,8 +35,12 @@ body {
   cursor: url(../Mallet.svg), auto;
 } */
 
-img, picture, video, canvas, svg {
-  display: block; 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
   max-width: 100%;
   /* border: 2px inset red; */
 }
@@ -46,28 +50,27 @@ img, picture, video, canvas, svg {
   max-height: 20vh;
 }
 
-
 a {
-  color: #38BDF8;
+  color: #38bdf8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EF4443; 
-  text-decoration:none;
+  color: #ef4443;
+  text-decoration: none;
   opacity: 0.7;
-  cursor:pointer;  
+  cursor: pointer;
 }
 
 .blue-line {
   width: 90%;
-  border:solid 1px #38BDF8;
+  border: solid 1px #38bdf8;
   /* color: #38BDF8; */
 }
 
 .red-line {
   width: 90%;
-  border:solid 1px #EF4443;
+  border: solid 1px #ef4443;
   /* color: #38BDF8; */
 }
 
@@ -85,12 +88,12 @@ a:hover {
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #FFF7ED;
-  border-bottom: solid 2px #38BDF8;
+  background-color: #fff7ed;
+  border-bottom: solid 2px #38bdf8;
 }
 
 .subheader {
-  min-height:5vh;
+  min-height: 5vh;
   height: 5vh;
   /* position: sticky; */
   top: 20vh;
@@ -102,21 +105,21 @@ a:hover {
   padding-right: 20px;
   /* padding-top: 10px; */
   margin-bottom: 0vh;
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: "Londrina Solid", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #38BDF8;
+  color: #38bdf8;
 }
 
 .subheader > a {
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: "Londrina Solid", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
 }
 
 .title {
   font-size: 80px;
-  color: #38BDF8;
+  color: #38bdf8;
 }
 
 .main {
@@ -132,7 +135,7 @@ a:hover {
 
 .game-container {
   width: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   height: 100%;
   margin-top: 25px;
@@ -152,12 +155,12 @@ a:hover {
 }
 
 .social-logo {
-    padding: 2px;
+  padding: 2px;
 }
 
 .about-us {
   text-align: left;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   margin-top: 25px;
   margin-bottom: 50px;
@@ -169,7 +172,7 @@ a:hover {
 
 .game-title {
   font-size: 3rem;
-  color: #38BDF8;
+  color: #38bdf8;
   text-align: center;
   margin: auto;
 }
@@ -177,13 +180,12 @@ a:hover {
 .game-description {
   font-weight: 300;
   font-size: 1.5rem;
-  color: #38BDF8;
-  color: black
+  color: black;
 }
 
 .game-title-red {
   font-size: 3rem;
-  color: #EF4443;
+  color: #ef4443;
   text-align: center;
   margin: auto;
 }
@@ -194,7 +196,7 @@ a:hover {
 }
 
 .grow-text {
-  font-family:'Courier New';
+  font-family: "Courier New";
   font-size: 4vw;
   font-style: bold;
   display: inline-block;
@@ -205,8 +207,8 @@ a:hover {
 }
 
 .cool-text {
-  font-family:'Londrina Solid';
-  font-size:8vmax;
+  font-family: "Londrina Solid";
+  font-size: 8vmax;
   white-space: nowrap;
   background: linear-gradient(45deg, #ef4444, #eab308, #22c55e, #3b82f6);
   /* background: linear-gradient(45deg, #ff0000, #ffcc00, #33cc33, #3366ff); 4-color bright gradient */
@@ -216,7 +218,7 @@ a:hover {
   position: relative;
   z-index: 1; /* Ensure the text is above the shadow */
   letter-spacing: 2px; /* Adjust letter spacing for a stylish look */
-  padding-bottom:0;
+  padding-bottom: 0;
 }
 
 .image-track {
@@ -251,13 +253,13 @@ a:hover {
   background: none;
   border: none;
   cursor: pointer;
-  color: #38BDF8;
+  color: #38bdf8;
   font-size: 3rem;
 }
 
 .scroll-btn:hover {
   opacity: 0.7;
-  color: #EF4443;
+  color: #ef4443;
 }
 
 /* Animate the subheader on hover */
@@ -271,7 +273,6 @@ a:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
 } */
-
 
 /* .game-container img:hover {
   transform: scale(1.05);
@@ -300,7 +301,7 @@ footer {
 }
 
 .header-left > a {
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: "Londrina Solid", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -309,14 +310,14 @@ footer {
   width: 100px;
 }
 
-@media ( min-width: 451px ) {
+@media (min-width: 451px) {
   .mobile {
     display: none;
   }
 }
 
 /* for mobile devices resize fonts */
-@media ( max-width: 450px ) {
+@media (max-width: 450px) {
   html {
     font-size: 14px;
   }
@@ -333,7 +334,7 @@ footer {
     max-height: 5vh;
   }
   .subheader > a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 300;
   }
   .scroll-btn {
