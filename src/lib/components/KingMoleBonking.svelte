@@ -28,7 +28,7 @@
 			<img
 				src={kingmoletextPath}
 				alt="King Mole is to the right"
-				style="width: 100%; height: 100%;"
+				style=""
 				in:fly={{ y: -200, duration: 3000 / 2, opacity: 0.5 }}
 				out:fade
 			/>
@@ -97,7 +97,8 @@
 <style>
 	img {
 		width: auto;
-		height: 100%;
+		/* height: 100%; */
+		max-height: 100%;
 		object-fit: contain;
 		background-color: lightcyan;
 	}

@@ -172,7 +172,8 @@
 		}
 
 		.top-right {
-			height: fit-content;
+			height: min-content;
+			border: green 2px solid;
 		}
 
 		.img-container {
