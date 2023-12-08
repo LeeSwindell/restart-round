@@ -137,7 +137,7 @@
 		}
 		.right {
 			grid-area: left;
-			border: 2px solid pink;
+			border: 2px solid lightseagreen;
 		}
 		.logo {
 			margin-left: auto;
