@@ -8,6 +8,10 @@
 	let prizes = 'imgs/mole/Prizes.jpg';
 </script>
 
+<svelte:head>
+	<title>Restart Round</title>
+</svelte:head>
+
 <div class="grid">
 	<div class="top-left">
 		<div class="game-title">Mole Park: Whack & Win</div>

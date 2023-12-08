@@ -1,11 +1,15 @@
 <script lang="ts">
-  let billy = 'imgs/people/billy.jpg';
-  let brian = 'imgs/people/brian.jpg';
-  let lee = 'imgs/people/lee.jpg';
-  let nick = 'imgs/people/nick.jpg';
-  let jo = 'imgs/people/jo.jpg';
-  let brendon = 'imgs/people/brendon.jpg';
+	let billy = 'imgs/people/billy.jpg';
+	let brian = 'imgs/people/brian.jpg';
+	let lee = 'imgs/people/lee.jpg';
+	let nick = 'imgs/people/nick.jpg';
+	let jo = 'imgs/people/jo.jpg';
+	let brendon = 'imgs/people/brendon.jpg';
 </script>
+
+<svelte:head>
+	<title>Restart Round | About</title>
+</svelte:head>
 
 <main>
 	<br />
@@ -88,12 +92,13 @@
 	</div>
 	<div class="person-info">
 		<h2>Brendon Jackson</h2>
-		<p>"Monopoly - I hate monopoly! it has been my life's ambition to complete rid the world of this vile game.
-			 Snowboarding - great! Coding - fun! Clank! - an amazing game! Soulsbourne - fun! Monopoly - get that
-			 S**T out of my face ..."</p>
+		<p>
+			"Monopoly - I hate monopoly! it has been my life's ambition to complete rid the world of this
+			vile game. Snowboarding - great! Coding - fun! Clank! - an amazing game! Soulsbourne - fun!
+			Monopoly - get that S**T out of my face ..."
+		</p>
 	</div>
 </div>
-
 
 <style>
 	main {

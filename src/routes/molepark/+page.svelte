@@ -7,6 +7,10 @@
 	import Extras from '$lib/components/molepark/Extras.svelte';
 </script>
 
+<svelte:head>
+	<title>Restart Round | Mole Park</title>
+</svelte:head>
+
 <main>
 	<div class="col-container">
 		<MoleParkLanding />

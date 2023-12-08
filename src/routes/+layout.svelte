@@ -7,6 +7,10 @@
 	let open: boolean;
 </script>
 
+<svelte:head>
+	<title>Restart Round</title>
+</svelte:head>
+
 <Header bind:open />
 <Menu bind:open />
 <slot />
