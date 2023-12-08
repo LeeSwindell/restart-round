@@ -56,7 +56,7 @@
 <style>
 	.container {
 		align-items: end;
-		border: 2px red solid;
+		border: 2px solid #fca5a5;
 		width: 100%;
 		margin: auto;
 		position: fixed;

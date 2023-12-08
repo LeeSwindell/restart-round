@@ -138,7 +138,6 @@
 		.right {
 			grid-area: left;
 			height: 100%;
-			border: 2px solid lightgoldenrodyellow;
 		}
 		.logo {
 			margin-left: auto;
