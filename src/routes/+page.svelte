@@ -171,7 +171,6 @@
 		}
 
 		.top-right {
-			border: 2px green solid;
 			height: fit-content;
 		}
 

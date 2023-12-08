@@ -75,7 +75,7 @@
 			{#if leftVis}
 				<div class="" style="overflow: hidden; height:100%">
 					<img
-						class=""
+						class="image"
 						style="height: 100%; width: auto; margin: auto;"
 						src={salliMolePath}
 						alt="Salli's killer mole"
@@ -95,10 +95,11 @@
 </div>
 
 <style>
-	.image {
+	img {
 		width: auto;
 		height: 100%;
 		object-fit: contain;
+		background-color: aqua;
 	}
 
 	.img-container {
