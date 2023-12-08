@@ -99,7 +99,7 @@
 		width: auto;
 		height: 100%;
 		object-fit: contain;
-		background-color: yellowgreen;
+		background-color: yellow;
 	}
 
 	.img-container {
@@ -121,11 +121,15 @@
 	.tl {
 		grid-area: tl;
 		/* background: lightblue; */
+		height: 100%;
+		width: 100%;
 	}
 
 	.bl {
 		grid-area: bl;
 		/* background: yellow; */
+		height: 100%;
+		width: 100%;
 	}
 
 	.r {
@@ -133,6 +137,9 @@
 		/* background: lightgreen; */
 		display: flex;
 		flex-direction: row;
+		height: 100%;
+		width: 100%;
+
 		/* align-items: center; */
 	}
 
