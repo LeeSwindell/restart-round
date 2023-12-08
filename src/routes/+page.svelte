@@ -170,6 +170,11 @@
 			);
 		}
 
+		.top-right {
+			border: 2px green solid;
+			height: fit-content;
+		}
+
 		.img-container {
 			width: 60%;
 			height: auto;
