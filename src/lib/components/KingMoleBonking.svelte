@@ -36,7 +36,7 @@
 	</div>
 	<div class="r" style="overflow: hidden;">
 		{#if leftVis}
-			<div class="img-container flip-anim" style="overflow: visible;">
+			<div class="img-container flip-anim" style="overflow: visible; height: 100%;">
 				<img
 					class="image show rocking"
 					src={kingMolePath}
@@ -53,7 +53,7 @@
 			</div>
 		{/if}
 		{#if rightVis}
-			<div class="img-container" style="overflow: visible;">
+			<div class="img-container" style="overflow: visible; height: 100%;">
 				<img
 					class="image show"
 					src={kingMolePath}
@@ -99,7 +99,7 @@
 		width: auto;
 		height: 100%;
 		object-fit: contain;
-		background-color: aqua;
+		background-color: yellowgreen;
 	}
 
 	.img-container {
