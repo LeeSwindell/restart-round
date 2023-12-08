@@ -172,6 +172,8 @@
 
 		.img-container {
 			width: 60%;
+			height: auto;
+			max-height: 100%;
 			margin-top: 5px;
 			margin-bottom: 5px;
 		}
