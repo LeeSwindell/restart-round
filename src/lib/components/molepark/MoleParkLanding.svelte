@@ -26,7 +26,6 @@
 		background-attachment: fixed;
 		background-image: url('../imgs/mole/molepark.png');
 		background-size: cover;
-		/* padding: 100px 0px; */
 		color: white;
 		border: #bc13fe;
 		border-style: inset;
@@ -38,6 +37,9 @@
 		text-align: center;
 		height: 85vh;
 		max-height: 85vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.neonText {
@@ -80,5 +82,8 @@
 
 	.mole {
 		font-family: 'Londrina Solid', sans-serif;
+	}
+
+	@media screen and (max-width: 450px) {
 	}
 </style>

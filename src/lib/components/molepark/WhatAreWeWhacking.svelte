@@ -220,11 +220,6 @@
 		padding: 10px;
 	}
 
-	.mole-name {
-		font-size: 2rem;
-		text-align: center;
-		color: #f37c7c;
-	}
 	.mole-selector {
 		font-size: 1.5rem;
 		color: #38bdf8;
@@ -273,5 +268,28 @@
 	img {
 		max-height: 100%;
 		margin: auto;
+	}
+
+	@media screen and (max-width: 450px) {
+		.component-container {
+			height: fit-content;
+			max-height: 100%;
+			padding-top: 2.5vh;
+			padding-bottom: 2.5vh;
+		}
+
+		.grid {
+			overflow: auto;
+			gap: 5px;
+			height: fit-content;
+
+			grid-template-areas:
+				'top-left top-left'
+				'bottom-left bottom-left'
+				'right bottom-middle';
+
+			grid-template-rows: 0.1fr 1fr 0.8fr;
+			grid-template-columns: 2fr 0.5fr;
+		}
 	}
 </style>

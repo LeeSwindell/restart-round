@@ -36,4 +36,13 @@
 		font-size: 1.7rem;
 		color: black;
 	}
+
+	@media screen and (max-width: 450px) {
+		.container {
+			height: fit-content;
+			max-height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+	}
 </style>
