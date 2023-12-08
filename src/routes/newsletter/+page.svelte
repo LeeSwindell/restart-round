@@ -1,1 +1,1 @@
-<div>newsletter</div>
+<div>newsletter coming soon!</div>

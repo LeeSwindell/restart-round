@@ -36,7 +36,7 @@
 	</div>
 	<div class="r" style="overflow: hidden;">
 		{#if leftVis}
-			<div class="img-container flip-anim" style="overflow: visible; height: 100%;">
+			<div class="img-container flip-anim" style="overflow: visible;">
 				<img
 					class="image show rocking"
 					src={kingMolePath}
@@ -53,7 +53,7 @@
 			</div>
 		{/if}
 		{#if rightVis}
-			<div class="img-container" style="overflow: visible; height: 100%;">
+			<div class="img-container" style="overflow: visible;">
 				<img
 					class="image show"
 					src={kingMolePath}
@@ -71,26 +71,26 @@
 		{/if}
 	</div>
 	<div class="bl">
-		<div style="height: 150px; width: auto;">
-			{#if leftVis}
-				<div class="" style="overflow: hidden; height:100%">
-					<img
-						class="image"
-						style="height: 100%; width: auto; margin: auto;"
-						src={salliMolePath}
-						alt="Salli's killer mole"
-						transition:fly={{
-							delay: 0,
-							duration: 3000 / 2,
-							x: 0,
-							y: 400,
-							opacity: 1.0,
-							easing: quintOut
-						}}
-					/>
-				</div>
-			{/if}
-		</div>
+		<!-- <div style="height: 150px; width: auto;"> -->
+		{#if leftVis}
+			<div class="" style="overflow: hidden; height:100%">
+				<img
+					class="image"
+					style="margin: auto;"
+					src={salliMolePath}
+					alt="Salli's killer mole"
+					transition:fly={{
+						delay: 0,
+						duration: 3000 / 2,
+						x: 0,
+						y: 400,
+						opacity: 1.0,
+						easing: quintOut
+					}}
+				/>
+			</div>
+		{/if}
+		<!-- </div> -->
 	</div>
 </div>
 
@@ -99,11 +99,11 @@
 		width: auto;
 		height: 100%;
 		object-fit: contain;
-		background-color: yellow;
+		background-color: pink;
 	}
 
 	.img-container {
-		height: fit-content;
+		height: auto;
 		max-height: 100%;
 		width: 50%;
 		overflow: hidden;
