@@ -28,7 +28,7 @@
 			<img
 				src={kingmoletextPath}
 				alt="King Mole is to the right"
-				style=""
+				style="height: 100%;"
 				in:fly={{ y: -200, duration: 3000 / 2, opacity: 0.5 }}
 				out:fade
 			/>
@@ -38,7 +38,7 @@
 		{#if leftVis}
 			<div class="img-container flip-anim" style="overflow: visible;">
 				<img
-					class="image show rocking"
+					class="show rocking"
 					src={kingMolePath}
 					alt="Animated King Mole"
 					transition:fly={{
@@ -100,7 +100,7 @@
 		/* height: 100%; */
 		max-height: 100%;
 		object-fit: contain;
-		background-color: lightcyan;
+		/* background-color: lightcyan; */
 	}
 
 	.img-container {
