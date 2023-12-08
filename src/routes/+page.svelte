@@ -143,6 +143,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	@media screen and (max-width: 450px) {
 		.grid {
 			display: flex;
