@@ -103,7 +103,7 @@
 	}
 
 	.img-container {
-		height: auto;
+		height: fit-content;
 		max-height: 100%;
 		width: 50%;
 		overflow: hidden;
@@ -133,6 +133,7 @@
 		/* background: lightgreen; */
 		display: flex;
 		flex-direction: row;
+		/* align-items: center; */
 	}
 
 	.rocking {
