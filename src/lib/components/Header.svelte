@@ -137,6 +137,7 @@
 		}
 		.right {
 			grid-area: left;
+			border: 2px solid pink;
 		}
 		.logo {
 			margin-left: auto;
