@@ -99,7 +99,7 @@
 		width: auto;
 		height: 100%;
 		object-fit: contain;
-		background-color: pink;
+		background-color: lightcyan;
 	}
 
 	.img-container {

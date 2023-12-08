@@ -69,6 +69,7 @@
 		grid-column: 2;
 		/* background: pink; */
 		border-radius: 10px;
+		height: 100%;
 
 		/* max-height: calc(85vh / 2.2); */
 		padding: 5px;
