@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-4 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: BerlinSansFBDemi-Bold, 'Berlin Sans FB Demi';
+        font-size: 750px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: #f1a91e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" width="1000" height="1000" rx="134.02" ry="134.02"/>
+  </g>
+  <path class="cls-8" d="m522.23,59.78l154.27,221.48c3.48,5,8.54,8.68,14.37,10.44l258.31,78.28c18.05,5.47,25.13,27.25,13.74,42.28l-162.96,215.16c-3.68,4.86-5.61,10.81-5.49,16.9l5.37,269.85c.38,18.86-18.15,32.32-35.97,26.13l-254.99-88.5c-5.75-2-12.01-2-17.77,0l-254.99,88.5c-17.82,6.18-36.34-7.28-35.97-26.13l5.37-269.85c.12-6.09-1.81-12.04-5.49-16.9L37.08,412.26c-11.39-15.03-4.31-36.81,13.74-42.28l258.31-78.28c5.83-1.77,10.89-5.45,14.37-10.44L477.77,59.78c10.78-15.48,33.68-15.48,44.46,0Z"/>
+  <text class="cls-1" transform="translate(467.27 503.52)"><tspan class="cls-7" x="0" y="0">L</tspan><tspan x="5.5" y="0">o</tspan><tspan class="cls-9" x="12.08" y="0">r</tspan><tspan class="cls-6" x="15.89" y="0">em ipsum</tspan></text>
+  <text class="cls-4" transform="translate(467.27 503.52)"><tspan class="cls-5" x="0" y="0">L</tspan><tspan x="5.5" y="0">o</tspan><tspan class="cls-9" x="12.08" y="0">r</tspan><tspan x="15.89" y="0">em ipsum</tspan></text>
+  <text class="cls-2" transform="translate(310.67 761.2)"><tspan x="0" y="0">5</tspan></text>
+</svg>

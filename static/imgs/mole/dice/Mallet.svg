@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #60bb46;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: BerlinSansFBDemi-Bold, 'Berlin Sans FB Demi';
+        font-size: 620.22px;
+        font-weight: 700;
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" width="1000" height="1000" rx="134.02" ry="134.02"/>
+  </g>
+  <rect class="cls-1" x="-73.95" y="431.8" width="824.83" height="155.17" transform="translate(-270.19 569.09) rotate(-62)"/>
+  <rect class="cls-1" x="220.48" y="138.82" width="457.45" height="324.56" transform="translate(193.94 -175.65) rotate(28)"/>
+  <ellipse class="cls-1" cx="651.16" cy="408.46" rx="162.3" ry="35.07" transform="translate(-15.19 791.64) rotate(-62)"/>
+  <ellipse class="cls-1" cx="247.32" cy="193.76" rx="162.28" ry="35.07" transform="translate(-39.87 321.17) rotate(-62)"/>
+  <ellipse class="cls-1" cx="144.95" cy="873.33" rx="35.07" ry="77.58" transform="translate(-694.2 591.31) rotate(-62)"/>
+  <ellipse class="cls-1" cx="532.08" cy="145.24" rx="17.93" ry="77.58" transform="translate(154.05 546.85) rotate(-62)"/>
+  <text class="cls-2" transform="translate(631.6 917.4)"><tspan x="0" y="0">5</tspan></text>
+</svg>
