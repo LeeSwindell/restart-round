@@ -1,23 +1,11 @@
 <div class="mole-title-bar">
-	<div
-		class="game-title destructible mole neonText"
-		style="text-align:center; font-size:12vmin; white-space: nowrap; text-overflow:ellipsis;"
-	>
-		Mole Park
-	</div>
 	<img
 		class="png-shadow"
 		style="margin-left: auto; margin-right: auto;"
-		src="imgs/mole/KingMole.png"
-		width="300px"
+		src="imgs/mole/MoleParkLogo.svg"
+		width="50%"
 		alt="King Mole"
 	/>
-	<div
-		class="game-title destructible mole neonText2"
-		style="text-align:center; font-size:8vmin; white-space: nowrap; text-overflow:ellipsis;"
-	>
-		Whack & Win
-	</div>
 </div>
 
 <style>

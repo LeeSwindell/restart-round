@@ -2,7 +2,8 @@
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
 	let board = 'imgs/mole/board.jpg';
-	let kat = 'imgs/mole/Kat.png';
+	let kingMoleCard = 'imgs/mole/KingMoleCard.svg';
+	let superMoleCard = 'imgs/mole/SuperMoleCard.svg';
 	let chef = 'imgs/mole/chef_mole.PNG';
 	let rock = 'imgs/mole/rock_n_roll_mole.PNG';
 	let prizes = 'imgs/mole/Prizes.jpg';
@@ -14,7 +15,13 @@
 
 <div class="grid">
 	<div class="top-left">
-		<div class="game-title">Mole Park: Whack & Win</div>
+		<img
+		class="png-shadow"
+		style="margin-left: auto; margin-right: auto;"
+		src="imgs/mole/MoleParkLogo.svg"
+		width="40%"
+		alt="King Mole"
+	    />
 		<div class="game-description">
 			<i>Mole Park: Whack & Win</i> &nbsp;is a turnless carnival-themed party game which will evoke sheer
 			joy from even your most curmudgeonly friends and family. Compete to Whack the most moles using
@@ -30,7 +37,10 @@
 			<img class="show-border" src={board} alt="board" />
 		</div>
 		<div class="img-container">
-			<img src={kat} alt="kat" />
+			<img src={kingMoleCard} alt="King Mole" />
+		</div>
+		<div class="img-container">
+			<img src={superMoleCard} alt="Super Mole" />
 		</div>
 		<div class="img-container">
 			<img class="show-border" src={chef} alt="king" />

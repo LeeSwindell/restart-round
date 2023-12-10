@@ -2,7 +2,7 @@
 	import { fly, slide, type EasingFunction, draw, fade } from 'svelte/transition';
 	import { quintOut, sineOut } from 'svelte/easing';
 
-	let kingMolePath = 'imgs/mole/KingMole.png';
+	let kingMolePath = 'imgs/mole/KingMole.svg';
 	let salliMolePath = 'imgs/Salli.png';
 	let kingmoletextPath = '/kingmoletext.svg';
 
