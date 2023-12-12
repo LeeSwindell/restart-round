@@ -15,13 +15,13 @@
 
 <div class="grid">
 	<div class="top-left">
-		<img
+		<a href="/molepark"><img
 		class="png-shadow"
 		style="margin-left: auto; margin-right: auto;"
 		src="imgs/mole/MoleParkLogo.svg"
 		width="40%"
 		alt="King Mole"
-	    />
+	    /></a>
 		<div class="game-description">
 			<i>Mole Park: Whack & Win</i> &nbsp;is a turnless carnival-themed party game which will evoke sheer
 			joy from even your most curmudgeonly friends and family. Compete to Whack the most moles using

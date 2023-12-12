@@ -94,5 +94,5 @@ body {
 
 @font-face {
   font-family: 'BriansFont';
-  src: url('./static/fonts/BriansFont.ttf');
+  src: url('/fonts/BriansFont.ttf');
 }
