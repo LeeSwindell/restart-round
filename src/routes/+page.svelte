@@ -5,7 +5,7 @@
 	let kingMoleCard = 'imgs/mole/KingMoleCard.svg';
 	let superMoleCard = 'imgs/mole/SuperMoleCard.svg';
 	let chef = 'imgs/mole/chef_mole.PNG';
-	let rock = 'imgs/mole/rock_n_roll_mole.PNG';
+	let moleJesterCard = 'imgs/mole/MoleJesterCard.svg';
 	let prizes = 'imgs/mole/Prizes.jpg';
 </script>
 
@@ -37,16 +37,16 @@
 			<img class="show-border" src={board} alt="board" />
 		</div>
 		<div class="img-container">
-			<img src={kingMoleCard} alt="King Mole" />
+			<img class="show-border" src={kingMoleCard} alt="King Mole" />
 		</div>
 		<div class="img-container">
-			<img src={superMoleCard} alt="Super Mole" />
+			<img class="show-border" src={superMoleCard} alt="Super Mole" />
 		</div>
 		<div class="img-container">
 			<img class="show-border" src={chef} alt="king" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={rock} alt="rock n roll mole" />
+			<img class="show-border" src={moleJesterCard} alt="Mole Jester" />
 		</div>
 		<div class="img-container">
 			<img class="show-border" src={prizes} alt="prizes" />
@@ -131,8 +131,8 @@
 	}
 
 	.show-border {
-		border: white 3px solid;
-		box-shadow: 6px 6px black;
+		border: black 4px solid;
+		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 	}
 
