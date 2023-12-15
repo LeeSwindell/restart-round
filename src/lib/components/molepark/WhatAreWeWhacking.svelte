@@ -1,8 +1,9 @@
 <script lang="ts">
 	let displayMoles = [
-		'imgs/mole/chef_mole.PNG',
-		'imgs/mole/KingMole.png',
-		'imgs/mole/monster_mole.PNG'
+	'imgs/mole/KingMole.svg',
+	'imgs/mole/SuperMole.svg',
+	'imgs/mole/RockMole.svg',
+	'imgs/mole/JesterMole.svg'
 	];
 	let curDisplayMole = 0;
 
@@ -71,22 +72,22 @@
 					class="mole-selector"
 					class:active={curDisplayMole === 0}
 					on:click={() => selectDisplayMole(0)}
-					>Chef Mole
+					>King Mole
 				</button>
 				<button
 					class="mole-selector"
 					class:active={curDisplayMole === 1}
-					on:click={() => selectDisplayMole(1)}>King Mole</button
+					on:click={() => selectDisplayMole(1)}>Super Mole</button
 				>
 				<button
 					class="mole-selector"
 					class:active={curDisplayMole === 2}
-					on:click={() => selectDisplayMole(2)}>Monster Mole</button
+					on:click={() => selectDisplayMole(2)}>Rock 'n' Roll Mole</button
 				>
 				<button
 					class="mole-selector"
 					class:active={curDisplayMole === 3}
-					on:click={() => selectDisplayMole(3)}>Other Moles</button
+					on:click={() => selectDisplayMole(3)}>Mole Jester</button
 				>
 				<!-- {#if curDisplayMole === 3}&#x2192{/if} -->
 			</div>

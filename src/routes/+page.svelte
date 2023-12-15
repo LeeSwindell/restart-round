@@ -4,7 +4,7 @@
 	let board = 'imgs/mole/board.jpg';
 	let kingMoleCard = 'imgs/mole/KingMoleCard.svg';
 	let superMoleCard = 'imgs/mole/SuperMoleCard.svg';
-	let chef = 'imgs/mole/chef_mole.PNG';
+	let rockMoleCard = 'imgs/mole/RocknRollMoleCard.svg';
 	let moleJesterCard = 'imgs/mole/MoleJesterCard.svg';
 	let prizes = 'imgs/mole/Prizes.jpg';
 </script>
@@ -43,7 +43,7 @@
 			<img class="show-border" src={superMoleCard} alt="Super Mole" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={chef} alt="king" />
+			<img class="show-border" src={rockMoleCard} alt="Rock 'n' Roll Mole" />
 		</div>
 		<div class="img-container">
 			<img class="show-border" src={moleJesterCard} alt="Mole Jester" />
@@ -93,7 +93,7 @@
 		grid-row: 2;
 		grid-column: 1 / span 2;
 		border-radius: 10px;
-		padding: 5px;
+		padding: 10px;
 
 		display: flex;
 		flex-direction: row;
@@ -117,7 +117,6 @@
 			rgba(251, 7, 217, 1) 90%,
 			rgba(255, 0, 0, 1) 100%
 		);
-
 		overflow: hidden;
 	}
 
@@ -134,6 +133,8 @@
 		border: black 4px solid;
 		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
+		outline: 2px solid #000; /* Covers up gaps between border and image */
+        outline-offset: -6px; /* Negative value to cover part of the image */
 	}
 
 	img {
@@ -153,7 +154,7 @@
 
 	.game-description {
 		font-weight: 300;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		color: black;
 		margin-left: auto;
 		margin-right: auto;

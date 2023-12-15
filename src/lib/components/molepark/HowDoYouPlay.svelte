@@ -115,15 +115,16 @@
 		}
 	}
 
-
 	.photo-container {
             display: flex;
 			justify-content: center;
         }
 
         .photo {
-            width: 200px; /* Adjust the width as needed */
+            width: min(200px, 30%); /* Adjust the width as needed */
             margin: 0 10px; /* Adjust the margin as needed */
+			-webkit-filter: drop-shadow(1px 1px 5px #000);
+			filter: drop-shadow(1px 1px 5px #000);
         }
 
     

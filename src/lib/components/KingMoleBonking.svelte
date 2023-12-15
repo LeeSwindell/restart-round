@@ -3,6 +3,7 @@
 	import { quintOut, sineOut } from 'svelte/easing';
 
 	let kingMolePath = 'imgs/mole/KingMole.svg';
+	let jesterMolePath = 'imgs/mole/JesterMole.svg';
 	let salliMolePath = 'imgs/Salli.png';
 	let kingmoletextPath = '/kingmoletext.svg';
 
@@ -56,7 +57,7 @@
 			<div class="img-container" style="overflow: visible;">
 				<img
 					class="image show"
-					src={kingMolePath}
+					src={jesterMolePath}
 					alt="Animated King Mole"
 					transition:fly={{
 						delay: 1000,

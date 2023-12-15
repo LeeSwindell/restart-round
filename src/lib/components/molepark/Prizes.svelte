@@ -116,7 +116,7 @@
 	}
 
 	img {
-		width: calc(95vw / 7 - 80px / 7);
+		width: calc(95vw / 7 - 120px / 7);
 		height: fit-content;
 		object-fit: contain;
 		border: white 3px solid;
