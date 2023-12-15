@@ -1,22 +1,21 @@
 <div class="container">
 	<div>
-		<h1 class="mole-header">Where did Mole Park come from?</h1>
-		<p class="mole-text">(Thrilling story coming soon! Check back here later.)</p>
-	</div>
-
-	<div>
-		<h1 class="mole-header">How Far Along is the Game?</h1>
-		<p class="mole-text">
-			We are in the final round of playtesting, using prototype versions of the game (the most
-			complicated components, the 32 custom dice per game, have already been manufactured). We have
-			been reaching out to manufacturers for the remaining components and have a plan to launch a
-			Kickstarter as we finish more of the art for the Moles.
+		<h1 class="mole-header">What's the origin of Mole Park?</h1>
+		<p class="mole-text">We started <i>Mole Park: Whack & Win</i> at the end of a roadtrip through the Pacific northwest.
+		We talked of a game which would be pure fun, unmarred by complicated rules or requiring
+		knowledge of other games to play. A game - like a carnival - that was colorful and bright
+		and in your face from the start. Where you could get into the action before you even knew what you were doing,
+		and by the time you did figure everything out you had already won a few games.</p>
+		<br>
+		<p class="mole-text">The original concept involved coordinating a squadron of 5 moles,
+			which you could improve over time. Each player would start the game with a set of basic moles ("Budget Moles") and would use
+			their turns to whack stronger moles and replace the originals.
+			Over time, you would build up synergies between your moles and eventually you would have enough mole power to swing the giant hammer and slam your way to the grand prize.
+			That's right - in the original variations, you didn't trade anything in for prizes, you played a different carnival game where your moles whacked a target as hard as they can,
+			trying to ring the bell at the top.
 		</p>
-	</div>
-
-	<div>
-		<h1 class="mole-header">Official Rules</h1>
-		<a class="mole-text" href="./Mole Park Rules.pdf">Click here for the rules!</a>
+		<br>
+		<p class="mole-text">After I got home from the trip, I got right to work on a prototype. Here's what it looked like:</p>
 	</div>
 </div>
 

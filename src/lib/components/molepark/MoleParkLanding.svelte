@@ -3,7 +3,7 @@
 		class="png-shadow"
 		style="margin-left: auto; margin-right: auto;"
 		src="imgs/mole/MoleParkLogo.svg"
-		width="50%"
+		width=850vmin;
 		alt="King Mole"
 	/>
 </div>
@@ -12,14 +12,14 @@
 	/* Parallax effect on title bar image */
 	.mole-title-bar {
 		background-attachment: fixed;
-		background-image: url('../imgs/mole/molepark.png');
+		background-image: url('imgs/mole/molepark.png');
 		background-size: cover;
 		color: white;
-		border: #bc13fe;
+		border-image: radial-gradient(ellipse at center, #af36e3 60%, #2ecc71) 1;
+		border-image-slice: 1;
 		border-style: inset;
-		border-width: 5px;
+		border-width: 10px;
 		border-radius: 5px;
-		border-style: solid;
 		overflow-x: visible;
 		width: auto;
 		text-align: center;
@@ -28,44 +28,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-	}
-
-	.neonText {
-		animation: pulsate 1.5s infinite alternate;
-
-		color: #fff;
-		text-shadow:
-			0 0 7px #fff,
-			0 0 10px #fff,
-			0 0 21px #bc13fe,
-			0 0 42px #bc13fe;
-	}
-
-	@keyframes pulsate {
-		100% {
-			text-shadow:
-				0 0 3px #fff,
-				0 0 7px #cec6e4,
-				0 0 19px #bc13fe,
-				0 0 40px #bc13fe;
-		}
-
-		0% {
-			text-shadow:
-				0 0 2px #fff,
-				0 0 4px #cec6e4,
-				0 0 6px #bc13fe,
-				0 0 10px #bc13fe,
-				0 0 45px #bc13fe;
-		}
-	}
-
-	.neonText2 {
-		color: #fff;
-		text-shadow:
-			0 0 3px #fff,
-			0 0 13px #13fe56,
-			0 0 22px #13fe56;
 	}
 
 	.mole {
