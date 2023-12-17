@@ -1,12 +1,12 @@
 <script lang="ts">
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
-	let board = 'imgs/mole/board.jpg';
+	let moleJesterCard = 'imgs/mole/MoleJesterCard.svg';
 	let kingMoleCard = 'imgs/mole/KingMoleCard.svg';
 	let superMoleCard = 'imgs/mole/SuperMoleCard.svg';
 	let rockMoleCard = 'imgs/mole/RocknRollMoleCard.svg';
-	let moleJesterCard = 'imgs/mole/MoleJesterCard.svg';
-	let prizes = 'imgs/mole/Prizes.jpg';
+	let shades = 'imgs/mole/35-3.png';
+	let balloon = 'imgs/mole/15-1.png';
 </script>
 
 <svelte:head>
@@ -15,17 +15,19 @@
 
 <div class="grid">
 	<div class="top-left">
-		<a href="/molepark"><img
-		class="png-shadow"
-		style="margin-left: auto; margin-right: auto;"
-		src="imgs/mole/MoleParkLogo.svg"
-		width="40%"
-		alt="King Mole"
-	    /></a>
+		<div class="game-logo">
+			<img
+				style="margin-left: auto; margin-right: auto;"
+				src="imgs/mole/MoleParkLogo.svg"
+				width="40%"
+				height="100%"
+				alt="King Mole"
+				/>
+		</div>
 		<div class="game-description">
-			<i>Mole Park: Whack & Win</i> &nbsp;is a turnless carnival-themed party game which will evoke sheer
-			joy from even your most curmudgeonly friends and family. Compete to Whack the most moles using
-			a boxing glove, frying pan, and giant mallet, and then cash in your moles to Win prizes! Once you
+			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a turnless carnival-themed party game which will evoke sheer
+			joy from even your most curmudgeonly friends and family. Compete to <b>Whack</b> the most moles using
+			a boxing glove, frying pan, and giant mallet, and then cash in your moles to <b>Win</b> prizes! Once you
 			are ready, go for the grand prize - King Mole's Crown - to become the champion!
 		</div>
 	</div>
@@ -33,9 +35,6 @@
 		<KingMoleBonking />
 	</div>
 	<div class="bottom">
-		<div class="img-container">
-			<img class="show-border" src={board} alt="board" />
-		</div>
 		<div class="img-container">
 			<img class="show-border" src={kingMoleCard} alt="King Mole" />
 		</div>
@@ -49,7 +48,10 @@
 			<img class="show-border" src={moleJesterCard} alt="Mole Jester" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={prizes} alt="prizes" />
+			<img class="show-border" src={balloon} alt="Jigsaw Puzzle" />
+		</div>
+		<div class="img-container">
+			<img class="show-border" src={shades} alt="Diamond Shades" />
 		</div>
 	</div>
 </div>
