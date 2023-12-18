@@ -256,7 +256,8 @@
       }
 
       .cls-162, .cls-163 {
-        font-family: BriansFont, BriansFont;
+        font-family: Berlin Sans FB, Berlin Sans FB;
+        font-weight: 500;
       }
 
       .cls-164 {

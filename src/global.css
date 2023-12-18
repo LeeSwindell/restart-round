@@ -72,11 +72,6 @@ h6 {
 	isolation: isolate;
 }
 
-@font-face {
-	font-family: mono;
-	src: url(../fonts/RobotoMono.ttf);
-}
-
 /* this sets the font rem size */
 html {
 	font-size: 16px;
@@ -94,5 +89,5 @@ body {
 
 @font-face {
   font-family: 'BriansFont';
-  src: url('/fonts/BriansFont.ttf');
+  src: url(../fonts/BriansFont.ttf);
 }
