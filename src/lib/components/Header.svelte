@@ -33,6 +33,8 @@
 		<a class="newsletter" class:active={$page.url.pathname === '/newsletter'} href="/newsletter"
 			>Newsletter</a
 		>
+		<div>&#160-&#160</div>
+		<a class="blog" class:active={$page.url.pathname === '/blog'} href="/blog">Blog</a>
 	</div>
 
 	<div class="right">
