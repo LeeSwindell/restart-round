@@ -7,16 +7,16 @@
 	<div class="mole-text text-2">
 		To Whack, roll a Whacking die.
 		<div class="photo-container">
-			<img src="../imgs/mole/dice/Glove.svg" alt="Boxing Glove" class="photo">
-			<img src="../imgs/mole/dice/Pan.svg" alt="Frying Pan" class="photo">
-			<img src="../imgs/mole/dice/Mallet.svg" alt="Giant Mallet" class="photo">
+			<img src="../imgs/mole/dice/Glove.png" alt="Boxing Glove" class="photo">
+			<img src="../imgs/mole/dice/Pan.png" alt="Frying Pan" class="photo">
+			<img src="../imgs/mole/dice/Mallet.png" alt="Giant Mallet" class="photo">
 		</div>
 		If you roll a number, you get moles from that hole.
 	</div>
 	<div class="mole-text text-3">
 		To Win, roll your Prize die.
 		<div class="photo-container">
-			<img src="../imgs/mole/dice/Prize.svg" alt="Prize Die" class="photo">
+			<img src="../imgs/mole/dice/Prize.png" alt="Prize Die" class="photo">
 		</div>
 		Cash in all your moles for a prize.
 	</div>
