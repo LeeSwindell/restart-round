@@ -4,7 +4,7 @@
 
 	let kingMolePath = 'imgs/mole/KingMole.svg';
 	let jesterMolePath = 'imgs/mole/JesterMole.svg';
-	let salliMolePath = 'imgs/Salli.png';
+	let salliMolePath = 'imgs/webp/Salli.webp';
 	let kingmoletextPath = '/kingmoletext.svg';
 
 	let leftVis = false;
@@ -155,10 +155,10 @@
 			transform: rotate(0deg);
 		}
 		70% {
-			transform: rotate(-15deg);
+			transform: rotate(15deg);
 		}
 		85% {
-			transform: rotate(15deg);
+			transform: rotate(-35deg);
 		}
 		100% {
 			transform: rotate(0deg);

@@ -1,3 +1,13 @@
+<script lang="ts">
+	let prize1 = '/imgs/webp/mole/10-2.webp';
+	let prize2 = '/imgs/webp/mole/15-1.webp';
+	let prize3 = '/imgs/webp/mole/20-3.webp';
+	let prize4 = '/imgs/webp/mole/25-2.webp';
+	let prize5 = '/imgs/webp/mole/30-4.webp';
+	let prize6 = '/imgs/webp/mole/35-3.webp';
+	let prize7 = '/imgs/webp/mole/40-1.webp';
+</script>
+
 <div class="container">
 	<h1 class="mole-header g1">What are the Prizes?</h1>
 
@@ -9,62 +19,13 @@
 	</p>
 
 	<div class="image-track g4">
-		<img
-			class=""
-			src="../imgs/mole/10-2.png"
-			alt="prize mole #10"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/15-1.png"
-			alt="prize mole #15"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/20-3.png"
-			alt="prize mole #20"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/25-2.png"
-			alt="prize mole #25"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/30-4.png"
-			alt="prize mole #30"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/35-3.png"
-			alt="prize mole #35"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
-		<img
-			class=""
-			src="../imgs/mole/40-1.png"
-			alt="king mole crown"
-			draggable="false"
-			width="822"
-			height="1122"
-		/>
+		<img class="" src={prize1} alt="prize mole #10" draggable="false" width="822" height="1122" />
+		<img class="" src={prize2} alt="prize mole #15" draggable="false" width="822" height="1122" />
+		<img class="" src={prize3} alt="prize mole #20" draggable="false" width="822" height="1122" />
+		<img class="" src={prize4} alt="prize mole #25" draggable="false" width="822" height="1122" />
+		<img class="" src={prize5} alt="prize mole #30" draggable="false" width="822" height="1122" />
+		<img class="" src={prize6} alt="prize mole #35" draggable="false" width="822" height="1122" />
+		<img class="" src={prize7} alt="king mole crown" draggable="false" width="822" height="1122" />
 	</div>
 </div>
 

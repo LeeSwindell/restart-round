@@ -1,10 +1,10 @@
 <script lang="ts">
-	let billy = 'imgs/people/billy.jpg';
-	let brian = 'imgs/people/brian.jpg';
-	let lee = 'imgs/people/lee.jpg';
-	let nick = 'imgs/people/nick.jpg';
-	let jo = 'imgs/people/jo.jpg';
-	let brendon = 'imgs/people/brendon.jpg';
+	let billy = 'imgs/webp/people/billy.webp';
+	let brian = 'imgs/webp/people/brian.webp';
+	let lee = 'imgs/webp/people/lee.webp';
+	let nick = 'imgs/webp/people/nick.webp';
+	let jo = 'imgs/webp/people/jo.webp';
+	let brendon = 'imgs/webp/people/brendon.webp';
 </script>
 
 <svelte:head>

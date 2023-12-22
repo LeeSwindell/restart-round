@@ -1,12 +1,12 @@
 <script lang="ts">
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
-	let moleJesterCard = 'imgs/mole/cards/MoleJester.png';
-	let kingMoleCard = 'imgs/mole/cards/KingMole.png';
-	let chefMoleCard = 'imgs/mole/cards/ChefMole.png';
-	let superMoleCard = 'imgs/mole/cards/SuperMole.png';
-	let rockMoleCard = 'imgs/mole/cards/RocknRollMole.png';
-	let balloon = 'imgs/mole/40-1.png';
+	let moleJesterCard = 'imgs/webp/mole/cards/MoleJester.webp';
+	let kingMoleCard = 'imgs/webp/mole/cards/KingMole.webp';
+	let chefMoleCard = 'imgs/webp/mole/cards/ChefMole.webp';
+	let superMoleCard = 'imgs/webp/mole/cards/SuperMole.webp';
+	let rockMoleCard = 'imgs/webp/mole/cards/RocknRollMole.webp';
+	let balloon = 'imgs/webp/mole/40-1.webp';
 </script>
 
 <svelte:head>
@@ -22,13 +22,14 @@
 				width="40%"
 				height="100%"
 				alt="King Mole"
-				/>
+			/>
 		</div>
 		<div class="game-description">
-			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a turnless carnival-themed party game which will evoke sheer
-			joy from even your most curmudgeonly friends and family. Compete to <b>Whack</b> the most moles using
-			a boxing glove, frying pan, and giant mallet, and then cash in your moles to <b>Win</b> prizes! Once you
-			are ready, go for the grand prize - King Mole's Crown - to become the champion!
+			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a turnless carnival-themed
+			party game which will evoke sheer joy from even your most curmudgeonly friends and family.
+			Compete to <b>Whack</b> the most moles using a boxing glove, frying pan, and giant mallet, and
+			then cash in your moles to <b>Win</b> prizes! Once you are ready, go for the grand prize - King
+			Mole's Crown - to become the champion!
 		</div>
 	</div>
 	<div class="top-right">
@@ -68,6 +69,8 @@
 		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
+
+		overflow: visible;
 	}
 
 	.top-left {
@@ -119,7 +122,7 @@
 			rgba(251, 7, 217, 1) 90%,
 			rgba(255, 0, 0, 1) 100%
 		);
-		overflow: hidden;
+		overflow: visible;
 	}
 
 	.img-container {
@@ -136,7 +139,7 @@
 		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 		outline: 2px solid #000; /* Covers up gaps between border and image */
-        outline-offset: -6px; /* Negative value to cover part of the image */
+		outline-offset: -6px; /* Negative value to cover part of the image */
 	}
 
 	img {
@@ -145,13 +148,6 @@
 		object-fit: contain;
 		margin: 0 auto;
 		border-radius: 10px;
-	}
-
-	.game-title {
-		font-size: 3rem;
-		color: #38bdf8;
-		text-align: center;
-		margin: auto;
 	}
 
 	.game-description {
