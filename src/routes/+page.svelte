@@ -1,12 +1,12 @@
 <script lang="ts">
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
-	let moleJesterCard = 'imgs/mole/MoleJesterCard.svg';
-	let kingMoleCard = 'imgs/mole/KingMoleCard.svg';
-	let superMoleCard = 'imgs/mole/SuperMoleCard.svg';
-	let rockMoleCard = 'imgs/mole/RocknRollMoleCard.svg';
-	let shades = 'imgs/mole/35-3.png';
-	let balloon = 'imgs/mole/15-1.png';
+	let moleJesterCard = 'imgs/mole/cards/MoleJester.png';
+	let kingMoleCard = 'imgs/mole/cards/KingMole.png';
+	let chefMoleCard = 'imgs/mole/cards/ChefMole.png';
+	let superMoleCard = 'imgs/mole/cards/SuperMole.png';
+	let rockMoleCard = 'imgs/mole/cards/RocknRollMole.png';
+	let balloon = 'imgs/mole/40-1.png';
 </script>
 
 <svelte:head>
@@ -42,6 +42,9 @@
 			<img class="show-border" src={superMoleCard} alt="Super Mole" />
 		</div>
 		<div class="img-container">
+			<img class="show-border" src={chefMoleCard} alt="Rock 'n' Roll Mole" />
+		</div>
+		<div class="img-container">
 			<img class="show-border" src={rockMoleCard} alt="Rock 'n' Roll Mole" />
 		</div>
 		<div class="img-container">
@@ -49,9 +52,6 @@
 		</div>
 		<div class="img-container">
 			<img class="show-border" src={balloon} alt="Jigsaw Puzzle" />
-		</div>
-		<div class="img-container">
-			<img class="show-border" src={shades} alt="Diamond Shades" />
 		</div>
 	</div>
 </div>
