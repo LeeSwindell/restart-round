@@ -63,13 +63,12 @@
 		grid-template-rows: 5fr 6fr;
 		grid-template-columns: 11fr 9fr;
 		gap: 10px;
-		max-height: 85vh;
+		/*max-height: 85vh;*/
 		min-height: 85vh;
 		width: 95%;
 		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
-
 		overflow: visible;
 	}
 

@@ -65,8 +65,7 @@
 <style>
 	.text-1 {
 		grid-area: text-1;
-		margin-top: auto;
-		margin-bottom: auto;
+		margin: 20px;
 		border: 3px solid var(--green);
 		border-radius: 10px;
 		padding:20px;
@@ -74,8 +73,7 @@
 	}
 	.text-2 {
 		grid-area: text-2;
-		margin-top: auto;
-		margin-bottom: auto;
+		margin: 20px;
 		border-radius: 10px;
 		padding:20px;
 		border: 3px solid var(--green);
@@ -85,8 +83,7 @@
 		grid-area: text-3;
 		border-radius: 10px;
 		padding:20px;	
-		margin-top: auto;
-		margin-bottom: auto;
+		margin: 20px;
 		border: 3px solid var(--green);
 		background-color: tan;
 	}
@@ -94,7 +91,7 @@
 		grid-area: text-4;
 		/* background-color: lightseagreen; */
 		border-radius: 10px;
-		margin: auto;
+		margin: 20px;
 		padding:20px;
 		border: 3px solid var(--green);
 		background-color: tan;
@@ -103,32 +100,21 @@
 		grid-area: text-5;
 		/* background-color: lightseagreen; */
 		border-radius: 10px;
-		margin: auto;
+		margin: 20px;
 		padding:20px;
 		border: 3px solid var(--green);
 		background-color: tan;
 	}
-	.person-img img {
-		max-width: 100%;
-		max-height: 400px;
-		width: 100%;
-		height: 300px; /* Set a fixed height for all images */
-		object-fit: scale-down;
-		border-radius: 4px;
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-		/* border: 5px solid #38BDF8;  */
-		background: #111111;
-	}
 
 	.container {
-		height: 85vh;
 		padding-top: 2.5vh;
 		padding-bottom: 2.5vh;
 		display: grid;
+		height:auto;
 		grid-template-areas:
 			'title title title title title'
 			'text-1 text-2 text-3 text-4 text-5';
-		grid-template-rows: 0.25fr 1fr 1.5fr 1fr;
+		grid-template-rows: 0.25fr 0.25fr;
 		column-gap: 10px;
 
 		/* border: 1px green solid; */
@@ -157,7 +143,7 @@
 		color: black;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1500px) {
 		.container {
 			height: fit-content;
 			max-height: 100%;

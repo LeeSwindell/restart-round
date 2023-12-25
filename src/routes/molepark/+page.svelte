@@ -35,7 +35,6 @@
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		overflow-y: visible;
 		margin-left: auto;
 		margin-right: auto;
