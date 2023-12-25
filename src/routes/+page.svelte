@@ -26,9 +26,9 @@
 		</div>
 		<div class="game-description">
 			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a turnless carnival-themed
-			party game which will evoke sheer joy from even your most curmudgeonly friends and family.
+			party game which will amaze and delight anyone who plays!
 			Compete to <b>Whack</b> the most moles using a boxing glove, frying pan, and giant mallet, and
-			then cash in your moles to <b>Win</b> prizes! Once you are ready, go for the grand prize - King
+			then cash in your moles to <b>Win</b> prizes. Once you are ready, go for the grand prize - King
 			Mole's Crown - to become the champion!
 		</div>
 	</div>
