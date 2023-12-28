@@ -20,12 +20,12 @@
 	<iframe
 		width="540"
 		height="305"
-		title="subscribe"
-		src="https://ced175fe.sibforms.com/serve/MUIFAEFzZJPzLGyXS_xaCdfpUPMmefU_ChFmjo7XsprNdSgvTob_EenfSeYnQuuJvUjgH4Colh_ezzy9lWwftCh3_tHVhfZVf6U-NUbsusgRtEk7A7vvFbHqttOsv_MXYfwEiO4PH13aoZIacmV9QRw_E-NmI0clSxGPWyXS59U1u-hAgYI4sCztfoRIoRW5YdtFsKb-pYYCl6Mm"
+		title="subscription"
+		src="https://ced175fe.sibforms.com/serve/MUIFAMOzPM371ejZ1P02dlQboiCyuscKR4DBAxRSh3cZaUoJ_OCs1dSUubjaYNvgvQIO6H0G_G6ErNZxabnbZbLNx-8BKAGwxcFfrhzXVL58E3fDKoVhwoyO_7j9yFJKp60HWPpWj7ne6Tuak8WD-Y6FNZ_XW8b9zyfdbs2gM25ojsIvIYg3q0coivD-3LUs_Zv-tvcvLZhY9OfI"
 		frameborder="0"
 		scrolling="auto"
 		allowfullscreen
-		style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
+		style="display: block; max-width: 100%;"
 	></iframe>
 </div>
 
