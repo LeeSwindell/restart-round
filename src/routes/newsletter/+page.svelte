@@ -12,9 +12,9 @@
 		<br />
 		<p class="text">Here's what we plan on sending:</p>
 		<ul>
-			<li class="text">Notifications that a Kickstarter went live</li>
-			<li class="text">A heads up that a game is released and ready to ship</li>
-			<li class="text">Plans for in-person events (e.g. Board game conventions)</li>
+			<li class="text">Notifications when a Kickstarter goes live</li>
+			<li class="text">A heads-up when a new game is released and ready to ship</li>
+			<li class="text">Plans for in-person events (e.g. board game conventions)</li>
 		</ul>
 	</div>
 	<iframe

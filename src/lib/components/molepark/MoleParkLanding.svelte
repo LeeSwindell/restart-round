@@ -1,3 +1,4 @@
+
 <div class="mole-title-bar">
 	<img
 		class="png-shadow"
@@ -12,7 +13,7 @@
 	/* Parallax effect on title bar image */
 	.mole-title-bar {
 		background-attachment: fixed;
-		background-image: url('imgs/mole/molepark.png');
+		background-image: url('$lib/assets/molepark.png');
 		background-size: cover;
 		color: white;
 		border-image: radial-gradient(ellipse at center, #af36e3 60%, #2ecc71) 1;

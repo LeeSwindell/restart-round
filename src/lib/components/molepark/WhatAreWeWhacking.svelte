@@ -202,7 +202,7 @@
 		/* background-color: #e9d5ff; */
 		/* border: 5px solid #d946ef; */
 		max-height: 100%;
-		overflow-y: scroll;
+		overflow-y: hidden;
 
 		border-radius: 10px;
 		/* padding: 10px; */
