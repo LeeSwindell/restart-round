@@ -9,7 +9,7 @@
 <img style="display: block; margin-left:auto;margin-right:auto; width:50%; max-width:1000px; text-align:center;" src={logo} alt="Roster Reshuffle Logo"/>
 
 <div style="margin:5%">
-	<p style="font-size:2.5vmin">
+	<p style="font-size:2vmin">
 		Restart Round brings you Roster Reshuffle, a football themed deck building card game currently in development.
 		<br>
 		The themed deck-builder is an extremely popular format but sports-based versions are suprisingly uncommon.

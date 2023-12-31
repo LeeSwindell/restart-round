@@ -14,7 +14,7 @@
 <main>
 	<br />
 	<div class="about-text" style="text-align: center;">About Us</div>
-	<p style="font-size:2.5vmin">
+	<p style="font-size:2vmin">
 		The idea of creating Restart Round started during a conversation on a walk in Seattle, Washington, in 2023.
 		A simple question:  "What if we made a game?"
 		<br><br>
