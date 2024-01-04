@@ -21,13 +21,12 @@
 				src="imgs/mole/MoleParkLogo.svg"
 				width="40%"
 				height="100%"
-				alt="King Mole"
+				alt="Mole Park Logo"
 			/>
 		</div>
 		<div class="game-description">
-			<h1>Upcoming Release: Mole Park!</h1>
 			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a turnless carnival-themed
-			party game which will amaze and delight anyone who plays!
+			party game which will delight and amaze anyone who plays!
 			Compete to <b>Whack</b> the most moles using a boxing glove, frying pan, and giant mallet, and
 			then cash in your moles to <b>Win</b> prizes. Once you are ready, go for the grand prize - King
 			Mole's Crown - to become the champion!
@@ -38,22 +37,22 @@
 	</div>
 	<div class="bottom">
 		<div class="img-container">
-			<img class="show-border" src={kingMoleCard} alt="King Mole" />
+			<img class="show-border" src={kingMoleCard} alt="King Mole Card" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={superMoleCard} alt="Super Mole" />
+			<img class="show-border" src={superMoleCard} alt="Super Mole Card" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={chefMoleCard} alt="Rock 'n' Roll Mole" />
+			<img class="show-border" src={chefMoleCard} alt="Chef Mole Card" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={rockMoleCard} alt="Rock 'n' Roll Mole" />
+			<img class="show-border" src={rockMoleCard} alt="Rock 'n' Roll Mole Card" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={moleJesterCard} alt="Mole Jester" />
+			<img class="show-border" src={moleJesterCard} alt="Mole Jester Card" />
 		</div>
 		<div class="img-container">
-			<img class="show-border" src={balloon} alt="Jigsaw Puzzle" />
+			<img class="show-border" src={balloon} alt="King Mole's Crown Card" />
 		</div>
 	</div>
 </div>
