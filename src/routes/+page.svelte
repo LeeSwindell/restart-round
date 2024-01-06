@@ -19,7 +19,7 @@
 			<img
 				style="margin-left: auto; margin-right: auto;"
 				src="imgs/mole/Mole Park Logo.webp"
-				width="64%"
+				width="50%"
 				height="100%"
 				alt="Mole Park Logo"
 			/>

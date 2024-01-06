@@ -4,7 +4,7 @@
 		class="png-shadow"
 		style="margin-left: auto; margin-right: auto;"
 		src="imgs/mole/Mole Park Logo.webp"
-		width="1200vmin;"
+		width="1100vmin;"
 		alt="King Mole"
 	/>
 </div>
