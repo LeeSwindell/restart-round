@@ -3,8 +3,8 @@
 	<img
 		class="png-shadow"
 		style="margin-left: auto; margin-right: auto;"
-		src="imgs/mole/MoleParkLogo.svg"
-		width="850vmin;"
+		src="imgs/mole/Mole Park Logo.webp"
+		width="1200vmin;"
 		alt="King Mole"
 	/>
 </div>
