@@ -24,11 +24,9 @@
 iframe {
       display: block;
       margin: 0 auto;
-      border: 10px solid #953; /* Adjust border color as needed */
+      border: 10px solid #000; /* Adjust border color as needed */
       border-radius: 10px; /* Adjust border radius as needed */
     }
-
-
 
 	.container {
 		height: 85vh;
