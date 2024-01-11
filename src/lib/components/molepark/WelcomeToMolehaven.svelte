@@ -1,4 +1,6 @@
 <div class="container">
+	<h2 style="display:flex; margin:0 auto;">Listen to the brand-new Mole Park Theme Song!</h2><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<p><br /></p>
 	<h1 class="mole-header">Welcome to Molehaven!</h1>
 	<p class="mole-text">
 		“Mole Park: Whack and Win!” invites you into the thrilling world of Molehaven, where becoming
@@ -9,12 +11,25 @@
 		since your friends will be right on your tail!
 		<br /><br />
 		Just remember: you have to Whack before you Win!
-		<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*or Queen, or Supreme Ruler, etc. Once you're in
-		charge, you can make your subjects call you anything!
+		<br />
+	</p>
+	<p class="mole-text">
+			<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*or Queen, or Supreme Ruler, etc. Once you're in
+			charge, you can make your subjects call you anything!
 	</p>
 </div>
 
 <style>
+
+iframe {
+      display: block;
+      margin: 0 auto;
+      border: 10px solid #953; /* Adjust border color as needed */
+      border-radius: 10px; /* Adjust border radius as needed */
+    }
+
+
+
 	.container {
 		height: 85vh;
 		padding-top: 2.5vh;
@@ -38,7 +53,7 @@
 	}
 
 	@media screen and (max-width: 450px) {
-		.container {
+      		.container {
 			height: fit-content;
 			max-height: 100%;
 			display: flex;
