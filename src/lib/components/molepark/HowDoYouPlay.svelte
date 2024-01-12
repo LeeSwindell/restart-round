@@ -14,16 +14,16 @@
 	<div class="mole-text text-2">
 		To Whack, roll a Whacking die.
 		<div class="photo-container">
-			<!--<img src={glove} alt="Boxing Glove" class="photo" />
+			<img src={glove} alt="Boxing Glove" class="photo" />
 			<img src={pan} alt="Frying Pan" class="photo" />
-			<img src={mallet} alt="Giant Mallet" class="photo" />-->
+			<img src={mallet} alt="Giant Mallet" class="photo" />
 		</div>
 		If you roll a number, you get moles from that hole.
 	</div>
 	<div class="mole-text text-3">
 		To Win, roll your Prize die.
 		<div class="photo-container">
-		<!--	<img src={prize} alt="Prize Die" class="photo" />-->
+			<img src={prize} alt="Prize Die" class="photo" />
 		</div>
 		Cash in all your moles for a prize.
 	</div>
@@ -130,7 +130,6 @@
 	.photo {
 		width: min(200px, 30%); /* Adjust the width as needed */
 		margin: 0 10px; /* Adjust the margin as needed */
-		-webkit-filter: drop-shadow(1px 1px 5px #000);
 		filter: drop-shadow(1px 1px 5px #000);
 	}
 </style>
