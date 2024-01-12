@@ -128,8 +128,7 @@
 	}
 
 	.photo {
-		width: min(200px, 30%); /* Adjust the width as needed */
+		width: 30%; /* Adjust the width as needed */
 		margin: 0 10px; /* Adjust the margin as needed */
-		filter: drop-shadow(1px 1px 5px #000);
 	}
 </style>
