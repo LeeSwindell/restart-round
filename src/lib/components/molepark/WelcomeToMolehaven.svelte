@@ -1,5 +1,5 @@
 <div class="container">
-	<h2 style="display:flex; margin:0 auto;">Listen to the brand-new Mole Park Theme Song!</h2><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<h2 style="display:flex; margin:0 auto;">Listen to the brand-new Mole Park Theme Song!</h2><iframe width=90% height=auto src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	<p><br /></p>
 	<h1 class="mole-header">Welcome to Molehaven!</h1>
 	<p class="mole-text">
