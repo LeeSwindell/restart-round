@@ -13,11 +13,9 @@
 
 <main>
 	<div class="col-container">
+		<MoleParkLanding />
 		<WelcomeToMolehaven />
-		<HowDoYouPlay />
-		<WhatAreWeWhacking />
-		<Prizes />
-		<Extras />
+
 	</div>
 </main>
 
