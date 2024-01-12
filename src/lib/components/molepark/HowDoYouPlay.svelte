@@ -105,6 +105,7 @@
 		margin: auto;
 	}
 
+	/*
 	@media screen and (max-width: 450px) {
 		.container {
 			height: fit-content;
@@ -120,7 +121,7 @@
 		.text-3 {
 			border: var(--darker-fuchsia) 3px solid;
 		}
-	}
+	}*/
 
 	.photo-container {
 		display: flex;
