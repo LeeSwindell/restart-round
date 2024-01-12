@@ -19,8 +19,6 @@
 			<img
 				style="margin-left: auto; margin-right: auto;"
 				src="imgs/mole/Mole Park Logo.webp"
-				width="50%"
-				height="auto"
 				alt="Mole Park Logo"
 			/>
 		</div>
@@ -185,6 +183,9 @@
 
 		.top-right {
 			height: min-content;
+		}
+		.top-left {
+			height:min-content;
 		}
 
 		.img-container {
