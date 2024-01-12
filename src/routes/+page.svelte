@@ -17,7 +17,7 @@
 	<div class="top-left">
 		<div class="game-logo">
 			<img
-				style="margin-left: auto; margin-right: auto;"
+				style="margin-left: auto; margin-right: auto; height:auto; width:70%;"
 				src="imgs/mole/Mole Park Logo.webp"
 				alt="Mole Park Logo"
 			/>
