@@ -106,13 +106,15 @@
 	}
 
 	@media screen and (max-width: 450px) {
+		.container {
+			height: fit-content;
+			max-height: 100%;
+			display: flex;
+			flex-direction: column;
+			row-gap: 10px;
+		}
 
-		.text-2 {
-			border: 3px solid var(--green);
-		}
-		.text-3 {
-			border: var(--darker-fuchsia) 3px solid;
-		}
+
 	}
 
 	.photo-container {
