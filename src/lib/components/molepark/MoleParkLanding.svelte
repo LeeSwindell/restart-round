@@ -5,6 +5,7 @@
 		style="margin-left: auto; margin-right: auto;"
 		src="imgs/mole/Mole Park Logo.webp"
 		height=70%
+		width=auto
 		alt="King Mole"
 	/>
 </div>

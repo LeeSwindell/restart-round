@@ -14,6 +14,8 @@
 <main>
 	<div class="col-container">
 		<MoleParkLanding />
+		<HowDoYouPlay />
+		<WhatAreWeWhacking />
 		<Prizes />
 		<Extras />
 	</div>
