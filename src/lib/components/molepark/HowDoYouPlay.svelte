@@ -1,5 +1,5 @@
 <script lang="ts">
-	let glove = '/imgs/webp/mole/dice/Glove.webp';
+	let glove = '/imgs/webp/mole/dice/Glove.png';
 	let pan = '/imgs/webp/mole/dice/Pan.webp';
 	let mallet = '/imgs/webp/mole/dice/Mallet.webp';
 	let prize = '/imgs/webp/mole/dice/Prize.webp';
@@ -15,15 +15,15 @@
 		To Whack, roll a Whacking die.
 		<div class="photo-container">
 			<img src={glove} alt="Boxing Glove" class="photo" />
-			<img src={pan} alt="Frying Pan" class="photo" />
-			<img src={mallet} alt="Giant Mallet" class="photo" />
+		<!--	<img src={pan} alt="Frying Pan" class="photo" />
+			<img src={mallet} alt="Giant Mallet" class="photo" />-->
 		</div>
 		If you roll a number, you get moles from that hole.
 	</div>
 	<div class="mole-text text-3">
 		To Win, roll your Prize die.
 		<div class="photo-container">
-			<img src={prize} alt="Prize Die" class="photo" />
+		<!--	<img src={prize} alt="Prize Die" class="photo" />-->
 		</div>
 		Cash in all your moles for a prize.
 	</div>
