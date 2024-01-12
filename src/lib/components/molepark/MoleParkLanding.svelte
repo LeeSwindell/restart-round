@@ -33,5 +33,8 @@
 	}
 
 	@media screen and (max-width: 450px) {
+		.mole-title-bar {
+			background-color:black;
+		}
 	}
 </style>
