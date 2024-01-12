@@ -5,7 +5,7 @@
 	let prize = '/imgs/webp/mole/dice/Prize.webp';
 </script>
 
-<div class="container">
+<div class="containerr">
 	<h1 class="mole-header title">How do you play?</h1>
 	<p class="mole-text text-1">
 		Mole Park progresses in rounds (players do not take turns). Every round, each player secretly
@@ -35,7 +35,7 @@
 </div>
 
 <style>
-	.container {
+	.containerr {
 		height: 85vh;
 		padding-top: 2.5vh;
 		padding-bottom: 2.5vh;
@@ -106,7 +106,7 @@
 	}
 
 	@media screen and (max-width: 450px) {
-		.container {
+		.containerr {
 			height: fit-content;
 			max-height: 100%;
 			display: flex;
@@ -114,7 +114,12 @@
 			row-gap: 10px;
 		}
 
-
+		.text-2 {
+			border: 3px solid var(--green);
+		}
+		.text-3 {
+			border: var(--darker-fuchsia) 3px solid;
+		}
 	}
 
 	.photo-container {
