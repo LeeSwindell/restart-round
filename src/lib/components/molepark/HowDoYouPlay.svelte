@@ -128,7 +128,6 @@
 	}
 
 	.photo {
-		width: 30%; /* Adjust the width as needed */
-		margin: 0 10px; /* Adjust the margin as needed */
+
 	}
 </style>
