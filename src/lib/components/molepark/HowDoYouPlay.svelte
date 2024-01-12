@@ -11,35 +11,19 @@
 		Mole Park progresses in rounds (players do not take turns). Every round, each player secretly
 		chooses whether they want to Whack or Win, and then everyone rolls their dice at once:
 	</p>
-<!--	<div class="mole-text text-2">
+	<div class="mole-text text-2">
 		To Whack, roll a Whacking die.
 		<div class="photo-container">
-			<img src={glove} alt="Boxing Glove" class="photo" />
+			<!--<img src={glove} alt="Boxing Glove" class="photo" />
 			<img src={pan} alt="Frying Pan" class="photo" />
-			<img src={mallet} alt="Giant Mallet" class="photo" />
+			<img src={mallet} alt="Giant Mallet" class="photo" />-->
 		</div>
 		If you roll a number, you get moles from that hole.
 	</div>
 	<div class="mole-text text-3">
 		To Win, roll your Prize die.
 		<div class="photo-container">
-			<img src={prize} alt="Prize Die" class="photo" />
-		</div>
-		Cash in all your moles for a prize.
-	</div>-->
-	<div class="mole-text">
-		To Whack, roll a Whacking die.
-		<div class="photo-container">
-			<img src={glove} alt="Boxing Glove" class="photo" />
-			<img src={pan} alt="Frying Pan" class="photo" />
-			<img src={mallet} alt="Giant Mallet" class="photo" />
-		</div>
-		If you roll a number, you get moles from that hole.
-	</div>
-	<div class="mole-text">
-		To Win, roll your Prize die.
-		<div class="photo-container">
-			<img src={prize} alt="Prize Die" class="photo" />
+		<!--	<img src={prize} alt="Prize Die" class="photo" />-->
 		</div>
 		Cash in all your moles for a prize.
 	</div>
