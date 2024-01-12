@@ -10,7 +10,7 @@
 		whack many moles and win many prizes before going for the crown. And you'll have to be quick,
 		since your friends will be right on your tail!
 		<br /><br />
-		Just remember: you have to Whack before you Win!
+		<b>Just remember: you have to Whack before you Win!</b>
 		<br />
 	</p>
 	<p class="mole-text">
@@ -29,7 +29,7 @@ iframe {
     }
 
 	.container {
-		height: 85vh;
+		height: fit-content;
 		padding-top: 2.5vh;
 		padding-bottom: 2.5vh;
 		display: grid;
@@ -53,7 +53,6 @@ iframe {
 	@media screen and (max-width: 450px) {
       		.container {
 			height: fit-content;
-			max-height: 100%;
 			display: flex;
 			flex-direction: column;
 		}
