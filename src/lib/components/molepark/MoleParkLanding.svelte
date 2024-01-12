@@ -2,7 +2,7 @@
 <div class="mole-title-bar">
 	<img
 		class="png-shadow"
-		style="margin-left: auto; margin-right: auto; height:70%; width:auto;"
+		style="margin-left: auto; margin-right: auto; width:70%; max-width:800px; height:auto;"
 		src="imgs/mole/Mole Park Logo.webp"
 		alt="King Mole"
 	/>
