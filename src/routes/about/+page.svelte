@@ -12,6 +12,8 @@
 </svelte:head>
 
 <main>
+	<iframe src="https://restart-round.sellfy.store/embed/product/alzh7h/" width="100%" height="500" allowtransparency="true" 		style="border: none;"></iframe>
+	<script src="https://sellfy.com/js/api_buttons.js"></script>
 	<br />
 	<div class="about-text" style="text-align: center;">About Us</div>
 	<p style="font-size:2vmin">
