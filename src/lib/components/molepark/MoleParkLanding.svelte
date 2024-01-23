@@ -1,4 +1,3 @@
-
 <div class="mole-title-bar">
 	<img
 		class="png-shadow"
@@ -6,13 +5,35 @@
 		src="imgs/mole/Mole Park Logo.webp"
 		alt="King Mole"
 	/>
-	<h2 style="font-size:4vw;margin-left: auto; margin-right: auto; color: #8562AA; -webkit-text-stroke: 1px #000000; font-weight: extra-bold;">Mole Park Theme Song</h2>
-	<p><br /></p>
-	<div class="player">
-		<iframe width=480px height=270px src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<h2
+		style="font-size:4vw;margin-left: auto; margin-right: auto; margin-bottom: 10px; color: #8562AA; -webkit-text-stroke: 1px #000000; font-weight: extra-bold;"
+	>
+		Mole Park Theme Song
+	</h2>
+	<div class="wrapper">
+		<div class="h_iframe">
+			<iframe
+				width="2"
+				height="2"
+				src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</div>
 	</div>
-	<p><br /></p>
-	<p><br /></p>
+	<!-- <div class="player">
+		<iframe
+			width="480px"
+			height="270px"
+			src="https://www.youtube-nocookie.com/embed/lwtBjOKS1y0?si=YTL-oAxNUCuh22MH"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen
+		></iframe>
+	</div> -->
 </div>
 
 <style>
@@ -35,22 +56,39 @@
 		justify-content: center;
 	}
 
-	.player {
- 	    border-radius: 20px;
-		border:white;
-		overflow: hidden;
-		z-index: 22;
-		height: 270px;
-		width: 480px;
-		margin-right: auto;
-		margin-left: auto;
-		border-style: ridge;
-	  	border: 5px solid #000; /* Border style, can be adjusted as needed */
+	.wrapper {
+		width: 95%;
+		max-width: 600px;
+		height: 100%;
+		margin: 10px auto 20px auto;
 	}
+	.h_iframe {
+		position: relative;
+		padding-top: 56.25%;
+	}
+	.h_iframe iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+	}
+
+	/* iframe {
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	} */
 
 	@media screen and (max-width: 450px) {
 		.mole-title-bar {
-			background-color:black;
+			background-color: black;
+		}
+		.wrapper {
+			/* max-width: 325px; */
 		}
 	}
 </style>

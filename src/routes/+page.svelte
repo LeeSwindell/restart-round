@@ -24,10 +24,10 @@
 		</div>
 		<div class="game-description">
 			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a whimsical carnival-themed
-			party game which will delight and amaze anyone who plays!
-			Compete to <b>Whack</b> the most moles using a boxing glove, frying pan, and giant mallet, and
-			then cash in your moles to <b>Win</b> prizes. Once you are ready, go for the grand prize - King
-			Mole's Crown - and claim the throne of Mole Park!
+			party game which will delight and amaze anyone who plays! Compete to <b>Whack</b> the most
+			moles using a boxing glove, frying pan, and giant mallet, and then cash in your moles to
+			<b>Win</b> prizes. Once you are ready, go for the grand prize - King Mole's Crown - and claim the
+			throne of Mole Park!
 		</div>
 	</div>
 	<div class="top-right">
@@ -58,10 +58,9 @@
 <style>
 	.grid {
 		display: grid;
-		grid-template-rows: 5fr 6fr;
+		grid-template-rows: 5fr 3fr;
 		grid-template-columns: 11fr 9fr;
 		gap: 10px;
-		/*max-height: 85vh;*/
 		min-height: 85vh;
 		width: 95%;
 		max-width: 95%;
@@ -74,20 +73,14 @@
 		grid-row: 1;
 		grid-column: 1;
 		border-radius: 10px;
-		/* background: lightblue; */
 		padding: 5px;
-		/* max-height: calc(85vh / 2.2); */
-		/* overflow: hidden; */
 	}
 
 	.top-right {
 		grid-row: 1;
 		grid-column: 2;
-		/* background: pink; */
 		border-radius: 10px;
 		height: 100%;
-
-		/* max-height: calc(85vh / 2.2); */
 		padding: 5px;
 	}
 
@@ -95,14 +88,14 @@
 		grid-row: 2;
 		grid-column: 1 / span 2;
 		border-radius: 10px;
-		padding: 10px;
+		padding: 50px;
+		border: 2px solid green;
 
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		height: 100%;
-		max-height: 100%;
+		height: fit-content;
 		column-gap: 10px;
 
 		background: linear-gradient(
@@ -185,7 +178,7 @@
 			height: min-content;
 		}
 		.top-left {
-			height:min-content;
+			height: min-content;
 		}
 
 		.img-container {

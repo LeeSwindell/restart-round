@@ -1,9 +1,9 @@
 <script lang="ts">
 	let displayMoles = [
-	'imgs/mole/KingMole.svg',
-	'imgs/mole/SuperMole.svg',
-	'imgs/mole/RockMole.svg',
-	'imgs/mole/JesterMole.svg'
+		'imgs/mole/KingMole.svg',
+		'imgs/mole/SuperMole.svg',
+		'imgs/mole/RockMole.svg',
+		'imgs/mole/JesterMole.svg'
 	];
 	let curDisplayMole = 0;
 
@@ -89,11 +89,9 @@
 					class:active={curDisplayMole === 3}
 					on:click={() => selectDisplayMole(3)}>Mole Jester</button
 				>
-				<!-- {#if curDisplayMole === 3}&#x2192{/if} -->
 			</div>
 		</div>
 		<div class="right">
-			<!-- <div class="mole-name">Chef Mole</div> -->
 			{#if curDisplayMole === 0}
 				<div class="display-mole-img">
 					<img
@@ -132,7 +130,6 @@
 					/>
 				</div>
 			{/if}
-			<!-- <div class="mole-name">Chef Mole</div> -->
 		</div>
 	</div>
 </div>
@@ -162,17 +159,13 @@
 
 	.top-left {
 		grid-area: top-left;
-		/* background-color: #86efac; */
-		/* border: 5px solid #22c55e; */
 		border-radius: 10px;
-		/* padding: 10px; */
 	}
 
 	h1 {
 		color: #38bdf8;
 		font-weight: bold;
 		font-size: 3rem;
-		/* text-align: center; */
 	}
 
 	.mole-text {
@@ -184,39 +177,21 @@
 
 	.right {
 		grid-area: right;
-		/* background-color: #fff7ed; */
-		/* position: relative; */
 		height: 100%;
-
-		/* border: 5px solid #0ea5e9; */
-
 		border-radius: 10px;
-		/* padding: 10px; */
-
-		/* display: grid;
-		grid-template-rows: auto; */
 	}
 
 	.bottom-left {
 		grid-area: bottom-left;
-		/* background-color: #e9d5ff; */
-		/* border: 5px solid #d946ef; */
 		max-height: 100%;
 		overflow-y: hidden;
-
 		border-radius: 10px;
-		/* padding: 10px; */
 	}
 
 	.bottom-middle {
 		grid-area: bottom-middle;
 		display: flex;
 		flex-direction: column;
-		/* background-color: #bae6fd; */
-		/* overflow: hidden; */
-
-		/* border: 5px solid #ef4444; */
-
 		border-radius: 10px;
 		padding: 10px;
 	}
@@ -231,7 +206,6 @@
 		background: none;
 		border: none;
 		padding: 0;
-		/* font: inherit; */
 		cursor: pointer;
 		outline: inherit;
 	}
@@ -251,10 +225,8 @@
 
 	.display-mole-img {
 		height: fit-content;
-		/* height: 100%; */
 		max-height: 100%;
 		margin: auto;
-		/* margin-top: 10px; */
 		position: relative;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
@@ -263,7 +235,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		/* border: 3px solid green; */
 	}
 
 	img {

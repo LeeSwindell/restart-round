@@ -1,5 +1,4 @@
 <div class="container">
-
 	<h1 class="mole-header">Welcome to Molehaven!</h1>
 	<p class="mole-text">
 		“Mole Park: Whack and Win!” invites you into the thrilling world of Molehaven, where becoming
@@ -13,20 +12,12 @@
 		<br />
 	</p>
 	<p class="mole-text">
-			<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*or Queen, or Supreme Ruler, etc. Once you're in
-			charge, you can make your subjects call you anything!
+		<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*or Queen, or Supreme Ruler, etc. Once you're in
+		charge, you can make your subjects call you anything!
 	</p>
 </div>
 
 <style>
-
-iframe {
-      display: block;
-      margin: 0 auto;
-      border: 10px solid #000; /* Adjust border color as needed */
-      border-radius: 10px; /* Adjust border radius as needed */
-    }
-
 	.container {
 		height: fit-content;
 		padding-top: 2.5vh;
@@ -50,7 +41,7 @@ iframe {
 	}
 
 	@media screen and (max-width: 450px) {
-      		.container {
+		.container {
 			height: fit-content;
 			display: flex;
 			flex-direction: column;

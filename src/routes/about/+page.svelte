@@ -16,42 +16,46 @@
 	<script src="https://sellfy.com/js/api_buttons.js"></script>-->
 	<br />
 	<div class="about-text" style="text-align: center;">About Us</div>
-	<p style="font-size:2vmin">
-		The idea of creating Restart Round started during a conversation on a walk in Seattle, Washington, in 2023.
-		A simple question:  "What if we made a game?"
-		<br><br>
-		If you and your friends like board games as much as us, you've probably had this type of conversation before.
-		"What type of game do you wish exists?"  "What mechanics would you change on some of your favorite games?"
-		Usually, these types of conversations just lead to some fun banter and then everyone moves on with their lives.
-		We would know.  We had many of them ever since we met at Cornell. The thing that really bonded us for the first
-		time was when we walked across campus to a board game night. In that sense, Restart Round started during a conversation
-		on a walk in Ithaca, New York, in 2013.
-		<br><br>
-      Since 2013,  we've collectively lived across the country - New York, Cleveland, Boston, Chicago, San Francisco -
-		but games always kept us together.  Playing random games on Board Game Arena, reuniting in person and buying a new game,
-		or getting together digitally to play the most influential game of them all: Gloomhaven.  After we started a Gloomhaven
-		campaign during the early days of 2020, our group became inseparable, spending hours and hours together on video calls.
-		The name of the company, Restart Round, is a callback to Gloomhaven.  In the online version, if you messed up your move,
-		you could hit "restart round" to go back to the beginning of the round and re-try.  Not our recommended approach,
-		but mis-clicks happen.  It soon became a common joke among us that we should "restart round" every time we did something stupid,
-		games or otherwise.
-		<br><br>
-		While we were in Seattle, we "restarted the round" on that conversation we had had a million times before and really thought
-		about what our game would be.  The result was Mole Park, our first ever game.  At first, Mole Park was just another excuse
-		for us to get on a discord call and mess around playing games.  But soon we realized how good of a game we made and a new
-		question emerged:  "What if we made a company?"
-		<br><br>
-		We learned quickly that it is a lot of work.  But what we also learned is that we have an extremely talented group of friends
-		and family:  creative minds, eloquent writers, experienced marketers, amazing artists, dynamic musicians, skilled coders.
-		Our games are uniquely us and are in many ways a love letter to this group of talented friends.
-		<br><br>
-		As we officially started the company, we had a conversation about what ultimate success meant to us.
-		Lee summed it up perfectly when he said, "I want us to randomly meet a group of friends at a bar or cafe and find out
-		they played & loved one of our games.  And when we tell them we made it they say 'wow you guys made that, that's amazing'.
-		That would be ultimate success."  A nice sentiment and one we take to heart.  But at the end of the day, if we don't
-		reach that level, we can always "restart round"  & start a new game.  Let's hope we don't need to.
-		<br>	
-		<br>
+	<p class="bulk-text">
+		The idea of creating Restart Round started during a conversation on a walk in Seattle,
+		Washington, in 2023. A simple question: "What if we made a game?"
+		<br /><br />
+		If you and your friends like board games as much as us, you've probably had this type of conversation
+		before. "What type of game do you wish exists?" "What mechanics would you change on some of your
+		favorite games?" Usually, these types of conversations just lead to some fun banter and then everyone
+		moves on with their lives. We would know. We had many of them ever since we met at Cornell. The thing
+		that really bonded us for the first time was when we walked across campus to a board game night.
+		In that sense, Restart Round started during a conversation on a walk in Ithaca, New York, in 2013.
+		<br /><br />
+		Since 2013, we've collectively lived across the country - New York, Cleveland, Boston, Chicago, San
+		Francisco - but games always kept us together. Playing random games on Board Game Arena, reuniting
+		in person and buying a new game, or getting together digitally to play the most influential game
+		of them all: Gloomhaven. After we started a Gloomhaven campaign during the early days of 2020, our
+		group became inseparable, spending hours and hours together on video calls. The name of the company,
+		Restart Round, is a callback to Gloomhaven. In the online version, if you messed up your move, you
+		could hit "restart round" to go back to the beginning of the round and re-try. Not our recommended
+		approach, but mis-clicks happen. It soon became a common joke among us that we should "restart round"
+		every time we did something stupid, games or otherwise.
+		<br /><br />
+		While we were in Seattle, we "restarted the round" on that conversation we had had a million times
+		before and really thought about what our game would be. The result was Mole Park, our first ever
+		game. At first, Mole Park was just another excuse for us to get on a discord call and mess around
+		playing games. But soon we realized how good of a game we made and a new question emerged: "What
+		if we made a company?"
+		<br /><br />
+		We learned quickly that it is a lot of work. But what we also learned is that we have an extremely
+		talented group of friends and family: creative minds, eloquent writers, experienced marketers, amazing
+		artists, dynamic musicians, skilled coders. Our games are uniquely us and are in many ways a love
+		letter to this group of talented friends.
+		<br /><br />
+		As we officially started the company, we had a conversation about what ultimate success meant to
+		us. Lee summed it up perfectly when he said, "I want us to randomly meet a group of friends at a
+		bar or cafe and find out they played & loved one of our games. And when we tell them we made it they
+		say 'wow you guys made that, that's amazing'. That would be ultimate success." A nice sentiment and
+		one we take to heart. But at the end of the day, if we don't reach that level, we can always "restart
+		round" & start a new game. Let's hope we don't need to.
+		<br />
+		<br />
 	</p>
 	<div class="about-text" style="text-align: center;">Meet the Founders</div>
 
@@ -161,7 +165,6 @@
 		align-items: center;
 	}
 
-	/* Add additional styles for images and text as needed */
 	.column img {
 		max-width: 100%;
 		max-height: 400px;
@@ -170,7 +173,6 @@
 		object-fit: scale-down;
 		border-radius: 5px;
 		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-		/* border: 5px solid #EF4443;  */
 		background: #111111;
 	}
 
@@ -178,14 +180,17 @@
 		margin: 10px 0;
 	}
 
+	p {
+		font-size: 1.25rem;
+		font-weight: lighter;
+	}
+
 	.founder-text {
 		font-size: 3rem;
 		color: #ef4443;
 		text-align: center;
-		/* white-space: nowrap; */
 		margin: 0;
 		font-family: 'Londrina Solid';
-		/* text-shadow: 1px 1px 5px pink; */
 	}
 
 	.about-text {
@@ -213,14 +218,6 @@
 	}
 
 	@media screen and (min-width: 450px) {
-		.about-img-container {
-			width: 40%;
-			align-items: center;
-			justify-content: center;
-		}
-		.about-us {
-			align-items: start;
-		}
 	}
 
 	.person-container {
@@ -229,7 +226,8 @@
 		justify-content: space-between;
 		padding: 20px;
 		flex-direction: row;
-		background-color: #fff7ed;
+		/* background-color: #fff7ed; */
+		background-color: #e0f2fe;
 	}
 
 	.person-info {
@@ -264,6 +262,7 @@
 	.person-container:nth-child(even) {
 		flex-direction: row-reverse;
 		background-color: #fee2e2;
+		/* background-color: #bae6fd; */
 		/* background-color: #f4e4e4;  */
 		/* Optional background color for better visibility    */
 	}
