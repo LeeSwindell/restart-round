@@ -254,7 +254,6 @@
 		object-fit: scale-down;
 		border-radius: 4px;
 		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-		/* border: 5px solid #38BDF8;  */
 		background: #111111;
 	}
 
@@ -262,8 +261,5 @@
 	.person-container:nth-child(even) {
 		flex-direction: row-reverse;
 		background-color: #fee2e2;
-		/* background-color: #bae6fd; */
-		/* background-color: #f4e4e4;  */
-		/* Optional background color for better visibility    */
 	}
 </style>
