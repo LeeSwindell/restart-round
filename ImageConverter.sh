@@ -1,4 +1,6 @@
 #!/bin/bash
+###!/bin/zsh
+
 # You might need to install webp - "brew install webp" on a mac
 
 # Set the path to the main image directory
