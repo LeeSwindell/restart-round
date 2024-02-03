@@ -21,18 +21,23 @@
 				>
 			</p>
 			<p transition:fly={{ y: -15, delay: 50 * 2 }}>
+				<a class:active={$page.url.pathname === '/store'} href="/store" on:click={closeMenu}
+					>Store</a
+				>
+			</p>
+			<p transition:fly={{ y: -15, delay: 50 * 3 }}>
 				<a class:active={$page.url.pathname === '/molepark'} href="/molepark" on:click={closeMenu}
 					>Mole Park
 				</a>
 			</p>
-			<p transition:fly={{ y: -15, delay: 50 * 3 }}>
+			<p transition:fly={{ y: -15, delay: 50 * 4 }}>
 				<a
 					class:active={$page.url.pathname === '/rosterreshuffle'}
 					href="/rosterreshuffle"
 					on:click={closeMenu}>Roster Reshuffle</a
 				>
 			</p>
-			<p transition:fly={{ y: -15, delay: 50 * 4 }}>
+			<p transition:fly={{ y: -15, delay: 50 * 5 }}>
 				<a
 					class="newsletter"
 					class:active={$page.url.pathname === '/newsletter'}
@@ -40,7 +45,7 @@
 					on:click={closeMenu}>Newsletter</a
 				>
 			</p>
-			<p transition:fly={{ y: -15, delay: 50 * 5 }}>
+			<p transition:fly={{ y: -15, delay: 50 * 6 }}>
 				<a
 					class="blog"
 					class:active={$page.url.pathname === '/blog'}
