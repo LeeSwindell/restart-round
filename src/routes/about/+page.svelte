@@ -1,10 +1,11 @@
 <script lang="ts">
 	let billy = 'imgs/webp/people/billy.webp';
-	let brian = 'imgs/webp/people/brian.webp';
+	let brian = 'imgs/people/brian.jpg';
 	let lee = 'imgs/webp/people/lee.webp';
 	let nick = 'imgs/webp/people/nick.webp';
 	let jo = 'imgs/webp/people/jo.webp';
 	let brendon = 'imgs/webp/people/brendon.webp';
+	let us = 'imgs/people/us.jpg';
 </script>
 
 <svelte:head>
@@ -12,11 +13,11 @@
 </svelte:head>
 
 <main>
-	<!--<iframe src="https://restart-round.sellfy.store/embed/product/alzh7h/" width="100%" height="500" allowtransparency="true" 		style="border: none;"></iframe>
-	<script src="https://sellfy.com/js/api_buttons.js"></script>-->
 	<br />
 	<div class="about-text" style="text-align: center;">About Us</div>
+	<img style="margin-left: auto; margin-right: auto;" src={us} width="auto" height="500px" alt="The Founders" />
 	<p class="bulk-text">
+		<br />
 		The idea of creating Restart Round started during a conversation on a walk in Seattle,
 		Washington, in 2023. A simple question: "What if we made a game?"
 		<br /><br />
@@ -105,7 +106,7 @@
 		<img src={nick} alt="Nick Sartini" />
 	</div>
 	<div class="person-info">
-		<h2>Nick Sartini</h2>
+		<h2>Nick Sartini, Operations</h2>
 		<p>
 			"I first tripped and fell down the board game rabbit hole in high school when my friends and I
 			would meet for weekly board game nights. We played a lot of One Night Ultimate Werewolf, King
@@ -122,25 +123,25 @@
 
 <div class="person-container">
 	<div class="person-img">
-		<img src={jo} alt="Jo Denby" />
-	</div>
-	<div class="person-info">
-		<h2>Jo Denby</h2>
-		<p>"I like moles."</p>
-	</div>
-</div>
-
-<div class="person-container">
-	<div class="person-img">
 		<img src={brendon} alt="Brendon Jackson" />
 	</div>
 	<div class="person-info">
-		<h2>Brendon Jackson</h2>
+		<h2>Brendon Jackson, Community Manager</h2>
 		<p>
 			"Monopoly - I hate monopoly! it has been my life's ambition to complete rid the world of this
 			vile game. Snowboarding - great! Coding - fun! Clank! - an amazing game! Soulsbourne - fun!
 			Monopoly - get that S**T out of my face ..."
 		</p>
+	</div>
+</div>
+
+<div class="person-container">
+	<div class="person-img">
+		<img src={jo} alt="Jo Denby" />
+	</div>
+	<div class="person-info">
+		<h2>Jo Denby, Mole Enthusiast</h2>
+		<p>"I like moles."</p>
 	</div>
 </div>
 
