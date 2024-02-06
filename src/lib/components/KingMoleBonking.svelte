@@ -4,7 +4,8 @@
 
 	let kingMolePath = 'imgs/mole/KingMole.svg';
 	let jesterMolePath = 'imgs/mole/JesterMole.svg';
-	let salliMolePath = 'imgs/webp/Salli.webp';
+	let clown = 'imgs/webp/mole/clown.webp';
+	let viking = 'imgs/webp/mole/Viking.webp';
 	let kingmoletextPath = '/kingmoletext.svg';
 
 	let leftVis = false;
@@ -78,8 +79,8 @@
 				<img
 					class="image"
 					style="margin: auto;"
-					src={salliMolePath}
-					alt="Salli's killer mole"
+					src={clown}
+					alt="Clown Mole"
 					transition:fly={{
 						delay: 0,
 						duration: 3000 / 2,
@@ -91,8 +92,30 @@
 				/>
 			</div>
 		{/if}
+		</div>
 		<!-- </div> -->
-	</div>
+		<div class="b2">
+			<!-- <div style="height: 150px; width: auto;"> -->
+			{#if leftVis}
+				<div class="" style="overflow: hidden; height:100%">
+					<img
+						class="image"
+						style="margin: auto; width:50%"
+						src={viking}
+						alt="Viking Mole"
+						transition:fly={{
+							delay: 0,
+							duration: 3000 / 2,
+							x: 0,
+							y: 400,
+							opacity: 1.0,
+							easing: quintOut
+						}}
+					/>
+				</div>
+			{/if}
+			<!-- </div> -->
+		</div>
 </div>
 
 <style>
@@ -114,8 +137,8 @@
 	.bonking-grid {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
-		grid-template-rows: 1fr 1.5fr;
-		grid-template-areas: 'tl r' 'bl r';
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: 'tl r' 'bl b2';
 		height: 100%;
 		width: 100%;
 	}
@@ -129,6 +152,13 @@
 
 	.bl {
 		grid-area: bl;
+		/* background: yellow; */
+		height: 100%;
+		width: 100%;
+	}
+
+	.b2 {
+		grid-area: b2;
 		/* background: yellow; */
 		height: 100%;
 		width: 100%;
