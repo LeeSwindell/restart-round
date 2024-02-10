@@ -1,7 +1,7 @@
 <div>
 	<br>
 	<h1 class="mole-header title">Where are the Rules?</h1>
-	<a href="Mole Park Rules.pdf" target="_blank" style="font-size:3vmin">Here's a PDF!</a>
+	<a href="molepark/rules.pdf" target="_blank" style="font-size:3vmin">Here's a PDF!</a>
 </div>
 
 <div class="container">
