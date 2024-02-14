@@ -39,4 +39,10 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	@media screen and (min-width: 1800px) {
+		main {
+			width: 85%;
+		}
+	}
 </style>

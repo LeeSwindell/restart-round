@@ -73,7 +73,6 @@
 			rgba(255, 0, 0, 1) 100%
 		);
 		column-gap: 10px;
-		/* border: 5px blue solid; */
 	}
 
 	img {
@@ -96,7 +95,6 @@
 		.image-track {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
-			/* grid-template-rows: 1fr 1fr 1fr 1fr; */
 			grid-template-areas: '';
 			justify-items: center;
 			padding-top: 2.5vh;
@@ -124,6 +122,12 @@
 		.image-track > img:nth-child(7) {
 			grid-column: 1 / span 2;
 			width: 40%;
+		}
+	}
+
+	@media screen and (min-width: 1800px) {
+		img {
+			width: calc(85vw / 7 - 120px / 7);
 		}
 	}
 </style>

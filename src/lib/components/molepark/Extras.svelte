@@ -118,15 +118,19 @@
 	}
 
 	.container {
+		height: fit-content;
+		max-height: 100%;
+		display: flex;
+		flex-direction: column;
 		padding-top: 2.5vh;
 		padding-bottom: 2.5vh;
-		display: grid;
+		/* display: grid; */
 		height: auto;
-		grid-template-areas:
+		/* grid-template-areas:
 			'title title title title title'
 			'text-1 text-2 text-3 text-4 text-5';
-		grid-template-rows: 0.25fr 0.25fr;
-		column-gap: 10px;
+		grid-template-rows: 0.25fr 0.25fr; */
+		/* column-gap: 10px; */
 	}
 
 	.title {
@@ -186,12 +190,9 @@
 		border-radius: 10px;
 	}
 
-	@media screen and (max-width: 1500px) {
-		.container {
-			height: fit-content;
-			max-height: 100%;
-			display: flex;
-			flex-direction: column;
+	@media screen and (min-width: 1800px) {
+		.version-block {
+			padding: 20px 7.5vw 20px 7.5vw;
 		}
 	}
 </style>

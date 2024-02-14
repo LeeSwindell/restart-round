@@ -11,39 +11,14 @@
 		curDisplayMole = m;
 	}
 
-	import { backInOut, linear } from 'svelte/easing';
-	import { fly, type EasingFunction } from 'svelte/transition';
+	import { backInOut } from 'svelte/easing';
+	import { fly } from 'svelte/transition';
 
 	let duration = 400;
 	let easing = backInOut;
 	// let easing = linear;
 	let outOptions = { duration, easing, times: 2, delay: 0, y: -500 };
 	let inOptions = { duration, easing, times: 2, delay: 400, y: 500 };
-
-	interface AnimOptions {
-		duration?: number;
-		easing?: EasingFunction;
-		times?: number;
-		delay?: number;
-		y?: number;
-		x?: number;
-	}
-
-	function spin(node: Node, options: AnimOptions) {
-		const { times = 1 } = options;
-		return {
-			...options,
-			// The value of t passed to the css method
-			// varies between zero and one during an "in" transition
-			// and between one and zero during an "out" transition.
-			css(t: number) {
-				// Svelte takes care of applying the easing function.
-				const degrees = 360 * times; // through which to spin
-				return `transform: scale(${t}) rotate(${t * degrees}deg)`;
-				// rotate(${t * degrees}deg);
-			}
-		};
-	}
 </script>
 
 <div class="component-container">
@@ -147,7 +122,6 @@
 		grid-template-areas:
 			'top-left top-left right bottom-middle'
 			'bottom-left bottom-left right bottom-middle';
-		/* 'bottom-left bottom-left bottom-middle'; */
 		grid-template-rows: 0.2fr 1fr;
 		grid-template-columns: 2fr 0.5fr 1fr 0.5fr;
 		gap: 10px;
