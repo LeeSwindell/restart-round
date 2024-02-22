@@ -23,9 +23,9 @@
 			/>
 		</div>
 		<div class="game-description">
-			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a chaotic carnival-themed
-			party game which will delight and amaze anyone who plays! Compete to <b>Whack</b> the most
-			moles using a boxing glove, frying pan, and giant mallet, and then cash in your moles to
+			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a chaotic carnival-themed party
+			game which will delight and amaze anyone who plays! Compete to <b>Whack</b> the most moles
+			using a boxing glove, frying pan, and giant mallet, and then cash in your moles to
 			<b>Win</b> prizes. Once you are ready, go for the grand prize - King Mole's Crown - and claim the
 			throne of Mole Park!
 		</div>
@@ -89,7 +89,7 @@
 		grid-column: 1 / span 2;
 		border-radius: 10px;
 		padding: 50px;
-		border: 2px solid green;
+		/* border: 2px solid green; */
 
 		display: flex;
 		flex-direction: row;
