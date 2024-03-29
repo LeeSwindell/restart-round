@@ -15,6 +15,7 @@
 		overflow: hidden;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 10px;
 		margin-bottom: 10px;
 		border-radius: 10px;
 	}
@@ -51,8 +52,8 @@
 		);
 		top: 5vh;
 		left: 50%;
-		width: 100vw;
-		height: 100vw;
+		width: 100vmax;
+		height: 100vmax;
 		transform: translateX(-50%);
 		z-index: 1;
 
