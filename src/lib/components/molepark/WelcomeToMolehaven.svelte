@@ -1,6 +1,14 @@
 <div>
 	<br>
-	<h1 class="mole-header title">Where are the Rules?</h1>
+	<h1 class="mole-header">Funded on Kickstarter</h1>
+	<p class="mole-text">
+		The Kickstarter for Mole Park was a roaring success! <a href="https://www.kickstarter.com/projects/restartround/mole-park-whack-and-win">Check it out</a> as we continue to post updates!
+	</p>
+</div>
+
+<div>
+	<br>
+	<h1 class="mole-header">Where are the Rules?</h1>
 	<a href="molepark/rules.pdf" target="_blank" style="font-size:3vmin">Here's a PDF!</a>
 </div>
 

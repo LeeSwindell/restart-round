@@ -1,10 +1,8 @@
 <div class="container">
 	<div class="white-background">
 		<h3>
-			Check out the Mole Park <a
-				href="https://www.kickstarter.com/projects/restartround/mole-park-whack-and-win"
-				>Kickstarter</a
-			>, Live until March 27th!
+			New release! Listen to the Restart Round Theme Song:<br>
+			<audio controls src="/restartround.mp3"></audio>
 		</h3>
 	</div>
 	<div class="blue-background"></div>
@@ -24,7 +22,7 @@
 
 	.white-background {
 		position: relative;
-		background-color: white;
+		background-color: rgb(247, 234, 152);
 		border-radius: 6px;
 		margin: 8px;
 		width: calc(100% - 16px); /* Subtract left and right margins */
