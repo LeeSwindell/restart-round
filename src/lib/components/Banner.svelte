@@ -11,8 +11,7 @@
 <style>
 	.container {
 		position: relative;
-		width: 60vw;
-		height: 10vh;
+		width: 80vw;
 		overflow: hidden;
 		margin-left: auto;
 		margin-right: auto;
@@ -52,8 +51,8 @@
 		);
 		top: 5vh;
 		left: 50%;
-		width: 65vw;
-		height: 65vw;
+		width: 100vw;
+		height: 100vw;
 		transform: translateX(-50%);
 		z-index: 1;
 
