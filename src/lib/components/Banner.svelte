@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container" id="banner-container">
 	<div class="white-background">
 		<h3>
-			New release! Listen to the Restart Round Theme Song:<br>
+			New release! Listen to the Restart Round Theme Song<br />
 			<audio controls src="/restartround.mp3"></audio>
 		</h3>
 	</div>
@@ -11,18 +11,23 @@
 <style>
 	.container {
 		position: relative;
-		width: 80vw;
+		height: fit-content;
+		max-height: 20vh;
+		width: fit-content;
+		max-width: 80vw;
+		padding: 10px 10px 10px 10px;
 		overflow: hidden;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 		border-radius: 10px;
 	}
 
 	.white-background {
 		position: relative;
-		background-color: rgb(247, 234, 152);
+		background-color: #fafafa;
+		padding: 8px 8px 8px 8px;
 		border-radius: 6px;
 		margin: 8px;
 		width: calc(100% - 16px); /* Subtract left and right margins */
@@ -65,22 +70,9 @@
 		color: #38bdf8;
 		text-align: center;
 		position: relative;
+		padding-left: 10px;
+		padding-right: 10px;
 		z-index: 2;
-	}
-
-	a {
-		font-size: 1.75rem;
-		color: #38bdf8;
-		text-align: center;
-		position: relative;
-		z-index: 2;
-	}
-
-	a:hover {
-		color: #ef4443;
-		/* text-decoration: none; */
-		opacity: 0.7;
-		cursor: pointer;
 	}
 
 	@keyframes rotateBackground {
