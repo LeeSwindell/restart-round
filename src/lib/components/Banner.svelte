@@ -1,7 +1,7 @@
 <div class="container" id="banner-container">
 	<div class="white-background">
 		<h3>
-			New release! Listen to the Restart Round Theme Song<br />
+			Listen to the Restart Round Theme Song:<br />
 			<audio controls src="/restartround.mp3"></audio>
 		</h3>
 	</div>
@@ -12,7 +12,6 @@
 	.container {
 		position: relative;
 		height: fit-content;
-		max-height: 20vh;
 		width: fit-content;
 		max-width: 80vw;
 		padding: 10px 10px 10px 10px;
@@ -66,7 +65,7 @@
 	}
 
 	h3 {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		color: #38bdf8;
 		text-align: center;
 		position: relative;
