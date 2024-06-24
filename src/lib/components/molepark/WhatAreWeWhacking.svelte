@@ -16,7 +16,7 @@
 
 	let duration = 400;
 	let easing = backInOut;
-	// let easing = linear;
+
 	let outOptions = { duration, easing, times: 2, delay: 0, y: -500 };
 	let inOptions = { duration, easing, times: 2, delay: 400, y: 500 };
 </script>

@@ -1,26 +1,67 @@
-<div class="container" id="banner-container">
-	<div class="white-background">
-		<h3>
-			Listen to the Restart Round Theme Song:<br />
-			<audio controls src="/restartround.mp3"></audio>
-		</h3>
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { fly } from 'svelte/transition';
+	import { backInOut } from 'svelte/easing';
+
+	let dismissed = true;
+	let duration = 4000;
+	let easing = backInOut;
+
+	let outOptions = { duration, easing, delay: 0, y: -500 };
+	let inOptions = { duration, easing, delay: 600, y: -500 };
+
+	const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
+
+	onMount(() => {
+		const storedTimestamp = localStorage.getItem('bannerDismissedTimestamp');
+		if (storedTimestamp) {
+			const currentTime = new Date().getTime();
+			const elapsed = currentTime - parseInt(storedTimestamp, 10);
+			if (elapsed > oneDayInMilliseconds) {
+				dismissed = false;
+			} else {
+				localStorage.removeItem('bannerDismissed');
+				localStorage.removeItem('bannerDismissedTimestamp');
+			}
+		} else {
+			dismissed = false;
+		}
+	});
+
+	function dismissBanner() {
+		dismissed = true;
+		const currentTimestamp = new Date().getTime();
+		localStorage.setItem('bannerDismissed', 'true');
+		localStorage.setItem('bannerDismissedTimestamp', currentTimestamp.toString());
+	}
+</script>
+
+{#if !dismissed}
+	<div class="container" id="banner-container" in:fly={inOptions} out:fly={outOptions}>
+		<div class="white-background">
+			<h3>
+				Listen to the Restart Round Theme Song:<br />
+				<audio controls src="/restartround.mp3"></audio>
+			</h3>
+			<button class="dismiss-button" on:click={dismissBanner}>x</button>
+		</div>
+		<div class="blue-background"></div>
 	</div>
-	<div class="blue-background"></div>
-</div>
+{/if}
 
 <style>
 	.container {
-		position: relative;
+		position: fixed;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
 		height: fit-content;
 		width: fit-content;
 		max-width: 80vw;
-		padding: 10px 10px 10px 10px;
+		padding: 10px;
 		overflow: hidden;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5px;
-		margin-bottom: 5px;
 		border-radius: 10px;
+		z-index: 99;
 	}
 
 	.white-background {
@@ -72,6 +113,18 @@
 		padding-left: 10px;
 		padding-right: 10px;
 		z-index: 2;
+	}
+
+	.dismiss-button {
+		border: none;
+		background-color: transparent;
+		color: black;
+		border-radius: 4px;
+		cursor: pointer;
+		position: absolute;
+		top: -19px;
+		right: -16px;
+		z-index: 1000;
 	}
 
 	@keyframes rotateBackground {
