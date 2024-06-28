@@ -14,7 +14,7 @@
 
 <main>
 	<br />
-	<div style="max-width: 70%; margin: 0 auto; padding: 20px;">
+	<div class="top-part">
 		<div class="about-text" style="text-align: center; margin-bottom: 20px;">About Us</div>
 		
 		<div class="image-container" style="float: right; margin-left: 20px;">
@@ -154,6 +154,12 @@
 </div>
 
 <style>
+	.top-part {
+		max-width: 70%;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
 	.image-container {
     position: relative;
     overflow: hidden;
@@ -231,6 +237,16 @@
 		.column {
 			flex: none; /* Don't allow columns to stretch to fill space */
 			width: 100%; /* Take up the full width of the container */
+		}
+
+		.top-part {
+			max-width: 100%;
+			margin: 0 auto;
+			padding: 20px;
+    	}
+
+		.image-container {
+			width:100%;
 		}
 	}
 
