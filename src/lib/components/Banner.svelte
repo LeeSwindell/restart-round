@@ -141,6 +141,7 @@
 			top: 5%;
 			width: 90vw;
 			max-width: 90vw;
+			height: 50vh;
 		}
 
 		.white-background {
