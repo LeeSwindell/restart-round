@@ -135,4 +135,26 @@
 			transform: translateX(-50%) translateY(-50%) rotate(360deg);
 		}
 	}
+
+	@media only screen and (max-width: 600px) {
+		.container {
+			top: 5%;
+			width: 90vw;
+			max-width: 90vw;
+		}
+
+		.white-background {
+			padding: 10px;
+			width: calc(100% - 20px);
+			margin: 0;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+		}
+
+		audio {
+			width: 100%;
+		}
+	}
 </style>
