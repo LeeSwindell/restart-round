@@ -141,10 +141,10 @@
 			top: 5%;
 			width: 90vw;
 			max-width: 90vw;
-			height: 50vh;
+			height: 30vh;
 		}
 
-		.white-background {
+		/* .white-background {
 			padding: 10px;
 			width: calc(100% - 20px);
 			margin: 0;
@@ -156,6 +156,6 @@
 
 		audio {
 			width: 100%;
-		}
+		} */
 	}
 </style>
