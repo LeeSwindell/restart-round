@@ -17,7 +17,7 @@
 	<div class="top-left">
 		<div class="game-logo">
 			<img
-				style="margin-left: auto; margin-right: auto; height:auto; width:70%;"
+				style="margin-left: auto; margin-right: auto; height:auto; width:70%; filter: drop-shadow(6px 6px 20px rgba(0, 0, 0, 0.5));"
 				src="imgs/Box rendered.png"
 				alt="Mole Park Logo"
 			/>
