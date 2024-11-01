@@ -5,7 +5,8 @@
 		The Kickstarter for Mole Park was a roaring success! <a
 			href="https://www.kickstarter.com/projects/restartround/mole-park-whack-and-win"
 			>Check it out</a
-		> as we continue to post updates!
+		>
+		as we continue to post updates!
 	</p>
 </div>
 

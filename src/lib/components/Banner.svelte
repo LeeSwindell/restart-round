@@ -40,8 +40,13 @@
 	<div class="container" id="banner-container" in:fly={inOptions} out:fly={outOptions}>
 		<div class="white-background">
 			<h3>
-				Listen to the Restart Round Theme Song:<br />
-				<audio controls src="/restartround.mp3"></audio>
+				Mole park is now available for
+				<a href="https://restart-round.sellfy.store/p/preorder-mole-park-whack-and-win/"
+					>pre-order</a
+				>
+				!
+				<!-- Listen to the Restart Round Theme Song:<br />
+				<audio controls src="/restartround.mp3"></audio> -->
 			</h3>
 			<button class="dismiss-button" on:click={dismissBanner}>x</button>
 		</div>
@@ -62,6 +67,18 @@
 		overflow: hidden;
 		border-radius: 10px;
 		z-index: 99;
+	}
+
+	a {
+		color: #38bdf8;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #ef4443;
+		text-decoration: underline;
+		opacity: 0.7;
+		cursor: pointer;
 	}
 
 	.white-background {
