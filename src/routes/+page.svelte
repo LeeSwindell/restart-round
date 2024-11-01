@@ -1,12 +1,12 @@
 <script lang="ts">
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
-	let moleJesterCard = 'imgs/webp/mole/cards/MoleJester.webp';
-	let kingMoleCard = 'imgs/webp/mole/cards/KingMole.webp';
-	let chefMoleCard = 'imgs/webp/mole/cards/ChefMole.webp';
-	let superMoleCard = 'imgs/webp/mole/cards/SuperMole.webp';
-	let rockMoleCard = 'imgs/webp/mole/cards/RocknRollMole.webp';
-	let balloon = 'imgs/webp/mole/40-1.webp';
+	let moleJesterCard = 'imgs/mole/cards/1.png';
+	let kingMoleCard = 'imgs/mole/cards/5.png';
+	let chefMoleCard = 'imgs/mole/cards/3.png';
+	let superMoleCard = 'imgs/mole/cards/4.png';
+	let rockMoleCard = 'imgs/mole/cards/2.png';
+	let balloon = 'imgs/mole/cards/CROWN.png';
 </script>
 
 <svelte:head>
@@ -125,11 +125,8 @@
 	}
 
 	.show-border {
-		border: black 4px solid;
 		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
-		outline: 2px solid #000; /* Covers up gaps between border and image */
-		outline-offset: -6px; /* Negative value to cover part of the image */
 	}
 
 	img {
