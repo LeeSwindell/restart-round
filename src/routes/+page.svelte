@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/stores';
 	import KingMoleBonking from '$lib/components/KingMoleBonking.svelte';
 
 	let moleJesterCard = 'imgs/mole/cards/1.png';
@@ -15,13 +16,15 @@
 
 <div class="grid">
 	<div class="top-left">
-		<div class="game-logo">
-			<img
-				style="margin-left: auto; margin-right: auto; height:auto; width:70%; filter: drop-shadow(6px 6px 15px rgba(0, 0, 0, 0.5));"
-				src="imgs/Box rendered.png"
-				alt="Mole Park Logo"
-			/>
-		</div>
+		<a class:active={$page.url.pathname === '/store'} href="/store">
+			<div class="game-logo">
+				<img
+					style="margin-left: auto; margin-right: auto; height:auto; width:70%; filter: drop-shadow(6px 6px 15px rgba(0, 0, 0, 0.5));"
+					src="imgs/Box rendered.png"
+					alt="Mole Park Logo"
+				/>
+			</div>
+		</a>
 		<div class="game-description">
 			<a href="/molepark"><i>Mole Park: Whack & Win</i></a> &nbsp;is a chaotic carnival-themed party
 			game which will delight and amaze anyone who plays! Compete to <b>Whack</b> the most moles

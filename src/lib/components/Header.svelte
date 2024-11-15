@@ -24,9 +24,7 @@
 		<div>&#160-&#160</div>
 		<a class:active={$page.url.pathname === '/about'} href="/about">About</a>
 		<div>&#160-&#160</div>
-		<a class:active={$page.url.pathname === '/store'} href="https://restart-round.sellfy.store/"
-			>Store</a
-		>
+		<a class:active={$page.url.pathname === '/store'} href="/store">Store</a>
 		<div>&#160-&#160</div>
 		<a class:active={$page.url.pathname === '/molepark'} href="/molepark">Mole Park </a>
 		<div>&#160-&#160</div>

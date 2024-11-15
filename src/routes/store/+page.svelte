@@ -8,9 +8,7 @@
 		const observer = new ResizeObserver((entries) => {
 			for (let entry of entries) {
 				let newHeight = entry.contentRect.height;
-
-				// Avoid endless resizing by setting a maximum height limit
-				if (cont && newHeight < window.innerHeight) {
+				if (cont && newHeight < window.innerHeight * 0.9) {
 					cont.style.height = `${newHeight}px`;
 				}
 			}
@@ -39,18 +37,42 @@
 
 <style>
 	#sellfy-container {
-		width: 80vw;
+		width: 100%;
 		background-color: #fafafa;
+		min-height: 100%;
+		max-height: 80vh;
 		margin-top: 20px;
 		margin-left: auto;
 		margin-right: auto;
-		overflow: hidden; /* Prevent scrolling */
-		max-height: 90vh; /* Limit height expansion to 90% of the viewport */
+		max-height: 90vh;
+		overflow-y: hidden; /* Prevent scrolling within the container */
+		padding: 0;
+		box-sizing: border-box;
 	}
 
 	#sellfy-iframe {
 		display: block;
 		width: 100%;
+		height: 100%;
 		border: none;
+		margin: 0; /* Ensure no additional gap */
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	@media screen and (max-width: 450px) {
+		#sellfy-container {
+			max-height: 80vh;
+		}
+
+		#sellfy-iframe {
+			min-height: 80vh;
+		}
+	}
+
+	@media screen and (min-width: 450px) {
+		#sellfy-container {
+			max-height: 50vh;
+		}
 	}
 </style>

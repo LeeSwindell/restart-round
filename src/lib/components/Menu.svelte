@@ -9,8 +9,8 @@
 	}
 </script>
 
-<div>
-	{#if open}
+{#if open}
+	<div>
 		<div class="container" transition:scale={{ duration: 150, easing: quadOut, opacity: 1 }}>
 			<p transition:fly={{ y: -15, delay: 50 * 0 }}>
 				<a class:active={$page.url.pathname === '/'} href="/" on:click={closeMenu}>Home</a>
@@ -55,8 +55,8 @@
 			</p>
 		</div>
 		<div class="bar" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
-	{/if}
-</div>
+	</div>
+{/if}
 
 <style>
 	.container {

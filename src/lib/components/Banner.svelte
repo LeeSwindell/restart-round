@@ -1,38 +1,19 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { backInOut } from 'svelte/easing';
 
-	let dismissed = true;
+	export let dismissed = true;
+	const dispatch = createEventDispatcher();
+
 	let duration = 4000;
 	let easing = backInOut;
 
 	let outOptions = { duration, easing, delay: 0, y: -500 };
 	let inOptions = { duration, easing, delay: 600, y: -500 };
 
-	const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
-
-	onMount(() => {
-		const storedTimestamp = localStorage.getItem('bannerDismissedTimestamp');
-		if (storedTimestamp) {
-			const currentTime = new Date().getTime();
-			const elapsed = currentTime - parseInt(storedTimestamp, 10);
-			if (elapsed > oneDayInMilliseconds) {
-				dismissed = false;
-			} else {
-				localStorage.removeItem('bannerDismissed');
-				localStorage.removeItem('bannerDismissedTimestamp');
-			}
-		} else {
-			dismissed = false;
-		}
-	});
-
 	function dismissBanner() {
-		dismissed = true;
-		const currentTimestamp = new Date().getTime();
-		localStorage.setItem('bannerDismissed', 'true');
-		localStorage.setItem('bannerDismissedTimestamp', currentTimestamp.toString());
+		dispatch('dismiss');
 	}
 </script>
 
@@ -45,8 +26,6 @@
 					>pre-order</a
 				>
 				!
-				<!-- Listen to the Restart Round Theme Song:<br />
-				<audio controls src="/restartround.mp3"></audio> -->
 			</h3>
 			<button class="dismiss-button" on:click={dismissBanner}>x</button>
 		</div>
@@ -160,19 +139,5 @@
 			max-width: 90vw;
 			height: 30vh;
 		}
-
-		/* .white-background {
-			padding: 10px;
-			width: calc(100% - 20px);
-			margin: 0;
-		}
-
-		h3 {
-			font-size: 1.2rem;
-		}
-
-		audio {
-			width: 100%;
-		} */
 	}
 </style>
