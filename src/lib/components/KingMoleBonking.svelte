@@ -4,7 +4,7 @@
 
 	let kingMolePath = 'imgs/mole/KingMole.svg';
 	let jesterMolePath = 'imgs/mole/JesterMole.svg';
-	let clown = 'imgs/webp/mole/clown.webp';
+	let clown = 'imgs/mole/Clown Mole.png';
 	let viking = 'imgs/webp/mole/Viking.webp';
 	let kingmoletextPath = '/kingmoletext.svg';
 

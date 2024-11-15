@@ -40,7 +40,7 @@
 	<div class="container" id="banner-container" in:fly={inOptions} out:fly={outOptions}>
 		<div class="white-background">
 			<h3>
-				Mole park is now available for
+				Mole Park is now available for
 				<a href="https://restart-round.sellfy.store/p/preorder-mole-park-whack-and-win/"
 					>pre-order</a
 				>

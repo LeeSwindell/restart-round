@@ -1,11 +1,11 @@
 <script lang="ts">
-	let prize1 = '/imgs/webp/mole/10-2.webp';
-	let prize2 = '/imgs/webp/mole/15-1.webp';
-	let prize3 = '/imgs/webp/mole/20-3.webp';
-	let prize4 = '/imgs/webp/mole/25-2.webp';
-	let prize5 = '/imgs/webp/mole/30-4.webp';
-	let prize6 = '/imgs/webp/mole/35-3.webp';
-	let prize7 = '/imgs/webp/mole/40-1.webp';
+	let prize1 = '/imgs/mole/10-2.png';
+	let prize2 = '/imgs/mole/15-1.png';
+	let prize3 = '/imgs/mole/20-3.png';
+	let prize4 = '/imgs/mole/25-2.png';
+	let prize5 = '/imgs/mole/30-4.png';
+	let prize6 = '/imgs/mole/35-3.png';
+	let prize7 = '/imgs/mole/40-1.png';
 </script>
 
 <div class="container">
