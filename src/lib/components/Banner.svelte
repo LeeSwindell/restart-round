@@ -22,7 +22,7 @@
 		<div class="white-background">
 			<h3>
 				<i>Mole Park&nbsp;</i> is available now,
-				<a href="https://restart-round.sellfy.store/p/preorder-mole-park-whack-and-win/"
+				<a href="https://restart-round.sellfy.store/p/mole-park-whack-and-win/"
 					>get your copy today</a
 				>!
 			</h3>
