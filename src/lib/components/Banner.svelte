@@ -6,7 +6,7 @@
 	export let dismissed = true;
 	const dispatch = createEventDispatcher();
 
-	let duration = 4000;
+	let duration = 2500;
 	let easing = backInOut;
 
 	let outOptions = { duration, easing, delay: 0, y: -500 };
@@ -21,11 +21,10 @@
 	<div class="container" id="banner-container" in:fly={inOptions} out:fly={outOptions}>
 		<div class="white-background">
 			<h3>
-				Mole Park is now available for
+				<i>Mole Park&nbsp;</i> is available now,
 				<a href="https://restart-round.sellfy.store/p/preorder-mole-park-whack-and-win/"
-					>pre-order</a
-				>
-				!
+					>get your copy today</a
+				>!
 			</h3>
 			<button class="dismiss-button" on:click={dismissBanner}>x</button>
 		</div>
@@ -118,8 +117,9 @@
 		border-radius: 4px;
 		cursor: pointer;
 		position: absolute;
-		top: -19px;
-		right: -16px;
+		top: -45px;
+		right: -17px;
+		font-size: 50px;
 		z-index: 1000;
 	}
 
