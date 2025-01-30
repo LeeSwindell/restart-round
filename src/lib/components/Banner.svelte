@@ -26,7 +26,9 @@
 					>get your copy today</a
 				>!
 			</h3>
-			<button class="dismiss-button" on:click={dismissBanner}>x</button>
+			<button class="dismiss-button" on:click={dismissBanner} aria-label="Dismiss">
+				<span>&#10006;</span>
+			</button>
 		</div>
 		<div class="blue-background"></div>
 	</div>
@@ -72,6 +74,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		
 	}
 
 	.blue-background {
@@ -111,17 +114,29 @@
 	}
 
 	.dismiss-button {
-		border: none;
-		background-color: transparent;
-		color: black;
-		border-radius: 4px;
-		cursor: pointer;
-		position: absolute;
-		top: -45px;
-		right: -17px;
-		font-size: 50px;
-		z-index: 1000;
-	}
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    z-index: 1000;
+}
+
+.dismiss-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(10deg);
+}
 
 	@keyframes rotateBackground {
 		from {
