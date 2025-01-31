@@ -113,18 +113,17 @@
 		z-index: 2;
 	}
 
-	.dismiss-button {
-    position: absolute;
-    top: -15px;
-    right: -15px;
+.dismiss-button {
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
     color: black;
     border-radius: 50%;
     cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right: -15px;
     width: 40px;
     height: 40px;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
