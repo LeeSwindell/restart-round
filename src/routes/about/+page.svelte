@@ -23,6 +23,9 @@
 		
 		<div class="bulk-text">
 			<p>
+				Listen to our Theme Song while you read!<br>
+				<audio controls src="/restartround.mp3"></audio>
+				<br><br>
 				The idea of creating Restart Round started during a conversation on a walk in Seattle,
 				Washington, in 2023. A simple question: "What if we made a game?"
 				<br /><br />
