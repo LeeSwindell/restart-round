@@ -16,7 +16,7 @@
 
 <div class="grid">
 	<div class="top-left">
-		<a class:active={$page.url.pathname === '/store'} href="/store">
+		<a class:active={$page.url.pathname === '/store'} href="https://restart-round.sellfy.store/p/mole-park-whack-and-win/">
 			<div class="game-logo">
 				<img
 					style="margin-left: auto; margin-right: auto; height:auto; width:70%; filter: drop-shadow(6px 6px 15px rgba(0, 0, 0, 0.5));"
