@@ -6,7 +6,7 @@
 	export let dismissed = true;
 	const dispatch = createEventDispatcher();
 
-	let duration = 2500;
+	let duration = 22500;
 	let easing = backInOut;
 
 	let outOptions = { duration, easing, delay: 0, y: -500 };
