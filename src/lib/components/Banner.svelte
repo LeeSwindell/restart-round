@@ -2,6 +2,8 @@
 	import { createEventDispatcher } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { backInOut } from 'svelte/easing';
+	import { page } from '$app/stores'; // Importing page store
+	import { get } from 'svelte/store';
 
 	export let dismissed = true;
 	const dispatch = createEventDispatcher();
@@ -15,9 +17,14 @@
 	function dismissBanner() {
 		dispatch('dismiss');
 	}
+
+	// Hide banner on specific pages
+	const hiddenPages = ['/checkout', '/order-confirmation', '/admin', '/molepark/rules'];
+	const currentPath = get(page).url.pathname;
+	const shouldShowBanner = !hiddenPages.includes(currentPath);
 </script>
 
-{#if !dismissed}
+{#if !dismissed && shouldShowBanner}
 	<div class="container" id="banner-container" in:fly={inOptions} out:fly={outOptions}>
 		<div class="white-background">
 			<h3>
@@ -64,17 +71,15 @@
 	.white-background {
 		position: relative;
 		background-color: #fafafa;
-		padding: 8px 8px 8px 8px;
+		padding: 8px;
 		border-radius: 6px;
 		margin: 8px;
-		width: calc(100% - 16px); /* Subtract left and right margins */
-		height: calc(100% - 16px); /* Subtract top and bottom margins */
+		width: calc(100% - 16px);
+		height: calc(100% - 16px);
 		z-index: 2;
-
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		
 	}
 
 	.blue-background {
@@ -99,7 +104,6 @@
 		height: 100vmax;
 		transform: translateX(-50%);
 		z-index: 1;
-
 		animation: rotateBackground 5s linear infinite;
 	}
 
@@ -108,34 +112,35 @@
 		color: #38bdf8;
 		text-align: center;
 		position: relative;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding: 0 10px;
 		z-index: 2;
 	}
 
-.dismiss-button {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: black;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: bold;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-    z-index: 1000;
-}
+	.dismiss-button {
+		border: none;
+		background-color: rgba(0, 0, 0, 0.1);
+		color: black;
+		border-radius: 50%;
+		cursor: pointer;
+		position: absolute;
+		top: -10px;
+		right: -10px;
+		width: 36px;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		aspect-ratio: 1/1; /* Ensures it remains a perfect circle */
+		font-size: 24px;
+		font-weight: bold;
+		transition: transform 0.2s ease, background-color 0.2s ease;
+		z-index: 1000;
+	}
 
-.dismiss-button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-    transform: scale(1.1) rotate(10deg);
-}
+	.dismiss-button:hover {
+		background-color: rgba(0, 0, 0, 0.2);
+		transform: scale(1.1) rotate(10deg);
+	}
 
 	@keyframes rotateBackground {
 		from {
@@ -151,7 +156,7 @@
 			top: 5%;
 			width: 90vw;
 			max-width: 90vw;
-			height: 30vh;
+			height: auto;
 		}
 	}
 </style>
