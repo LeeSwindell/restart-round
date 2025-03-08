@@ -1,6 +1,6 @@
 <script>
 	let pdfUrl = '/molepark/rules_new.pdf';
-	let youtubeUrl = 'https://www.youtube.com/embed/ivnwIPcOVUs?si=-vJvqYXKNjHVrF29';
+	let youtubeUrl = 'https://www.youtube.com/embed/HHHMNZ4cSPw?si=R6mXanRQzrTGBCUR';
 </script>
 
 <svelte:head>

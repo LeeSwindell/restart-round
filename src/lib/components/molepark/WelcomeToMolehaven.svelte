@@ -16,7 +16,7 @@
 	<div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
 		<div style="position: relative; width: 80%; max-width: 800px; aspect-ratio: 16 / 9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
 			<iframe
-				src='https://www.youtube.com/embed/ivnwIPcOVUs?si=-vJvqYXKNjHVrF29'
+				src='https://www.youtube.com/embed/HHHMNZ4cSPw?si=R6mXanRQzrTGBCUR'
 				title="How to Play Mole Park"
 				style="position: absolute; width: 100%; height: 100%; border: none;"
 				allowfullscreen
