@@ -8,7 +8,7 @@
 	<br />
 	<h1 class="mole-header">Learn how to Play!</h1>
 	<br>
-	<a href='/molepark/rules_new.pdf' target="_blank" rel="noopener noreferrer"
+	<a href='/molepark/rules.pdf' target="_blank" rel="noopener noreferrer"
 		style="margin-top: 15px; font-size: 1.5rem; text-decoration: none; color: #007BFF;">
 		📄 Open the Rules PDF
 	</a>
