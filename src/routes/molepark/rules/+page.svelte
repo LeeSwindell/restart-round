@@ -26,7 +26,7 @@
       <h2 style="margin-top:0; font-size:20px;">Tracking Information</h2>
 
       <p style="margin:6px 0; font-size:16px;">
-        <strong>Made in:</strong> China
+        <strong>Made in:</strong> LuoHe City, LinYing County, Henan, China
       </p>
 
       <p style="margin:6px 0; font-size:16px;">
